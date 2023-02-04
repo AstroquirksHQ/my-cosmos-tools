@@ -1,0 +1,15 @@
+{
+  "name": "my-cosmos-signer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cosmjs/amino": "^0.29.5",
+    "@cosmjs/stargate": "^0.29.5"
+  }
+}
