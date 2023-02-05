@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@cosmjs/amino": "^0.29.5",
+    "@cosmjs/cosmwasm-stargate": "^0.29.5",
     "@cosmjs/stargate": "^0.29.5"
   }
 }
