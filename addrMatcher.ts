@@ -1,24 +1,50 @@
 import { pubkeyToAddress } from "@cosmjs/amino";
 import { StargateClient } from "@cosmjs/stargate";
-async function main() {
-    const osmoAddr = "osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7"
+import * as fs from "fs";
+import { parse } from 'csv-parse';
+import * as yargs from "yargs";
 
-    const rpcEndpoint = "https://rpc.osmosis.zone:443"
+async function main(argv: any) {
+  const rpcEndpoint = argv.rpcEndpoint || "https://rpc.osmosis.zone:443";
+  const client = await StargateClient.connect(rpcEndpoint);
 
-    const client = await StargateClient.connect(rpcEndpoint);
-
+  const data = fs.readFileSync(argv.fromCsv);
+  const records = await parse(data, { columns: true });
+  const header = 'address,amount\n'
+  process.stdout.write(header)
+  for await (const record of records) {
+    const osmoAddr = record.address;
     const result = await client.getAccount(osmoAddr);
 
     if (result?.pubkey) {
-        const pubkey = result.pubkey
-        const stargaze_address = pubkeyToAddress(pubkey, "stars");
-        const juno_address = pubkeyToAddress(pubkey, "juno");
-        console.log(stargaze_address); 
-        console.log(juno_address); 
+      const pubkey = result.pubkey;
+      const new_address = pubkeyToAddress(pubkey, argv.to);
+      const output = `${new_address},${record.amount}\n`;
+      process.stdout.write(output)
     } else {
-        console.error("pubkey not found for address" + osmoAddr);
+      console.error("pubkey not found for address" + osmoAddr);
+      return
     }
-
+  }
 }
 
-main();
+const argv = yargs
+  .option("from-csv", {
+    alias: "f",
+    describe: "Path to the input CSV file",
+    demandOption: true,
+    type: "string",
+  })
+  .option("rpc", {
+    alias: "r",
+    describe: "RPC endpoint to connect to",
+    type: "string",
+  })
+  .option("to", {
+    describe: "The token you want to tranform the address to (ie : stars)",
+    type: "string",
+  })
+  .help()
+  .alias("help", "h").argv;
+
+main(argv);
