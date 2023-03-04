@@ -5,16 +5,15 @@ import { parse } from 'csv-parse';
 import * as yargs from "yargs";
 
 async function main(argv: any) {
-  const rpcEndpoint = argv.rpcEndpoint || "https://rpc.osmosis.zone:443";
-  const client = await StargateClient.connect(rpcEndpoint);
+  const client = await StargateClient.connect(argv.rpc);
 
   const data = fs.readFileSync(argv.fromCsv);
   const records = await parse(data, { columns: true });
   const header = 'address,amount\n'
   process.stdout.write(header)
   for await (const record of records) {
-    const osmoAddr = record.address;
-    const result = await client.getAccount(osmoAddr);
+    const addr = record.address;
+    const result = await client.getAccount(addr);
 
     if (result?.pubkey) {
       const pubkey = result.pubkey;
@@ -22,7 +21,7 @@ async function main(argv: any) {
       const output = `${new_address},${record.amount}\n`;
       process.stdout.write(output)
     } else {
-      console.error("pubkey not found for address" + osmoAddr);
+      console.error("pubkey not found for address" + addr);
       return
     }
   }
