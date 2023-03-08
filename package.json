@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "validatool": "node dist/validatool.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +14,9 @@
     "@cosmjs/amino": "^0.29.5",
     "@cosmjs/cosmwasm-stargate": "^0.29.5",
     "@cosmjs/stargate": "^0.29.5",
+    "@types/invariant": "^2.2.35",
     "csv-parse": "^5.3.6",
+    "invariant": "^2.2.4",
     "yargs": "^17.7.1"
   },
   "devDependencies": {
