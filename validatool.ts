@@ -1,21 +1,29 @@
 import { Tendermint34Client } from "@cosmjs/tendermint-rpc";
-import { QueryClient } from "@cosmjs/stargate";
+import { QueryClient, StakingExtension } from "@cosmjs/stargate";
 import { setupStakingExtension } from "@cosmjs/stargate";
 import invariant from "invariant"
 
-async function main() {
-    const osmoDelegatorAddr = "osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw"
-    const apiUrl = "https://osmosis-mainnet-rpc.allthatnode.com:26657"
+class Validator {
+    private client!: QueryClient & StakingExtension;
+    private validatorAddr: string
+    private rpcUrl: string
 
-    const tmClient = await Tendermint34Client.connect(apiUrl);
-    const client = QueryClient.withExtensions(tmClient, setupStakingExtension)
+    constructor(validatorAddr: string, rpcUrl: string){
+        this.validatorAddr = validatorAddr
+        this.rpcUrl = rpcUrl
+    }
 
-    async function getDelegation(){
+    async connect():  Promise<void> {
+        const tmClient = await Tendermint34Client.connect(this.rpcUrl);
+        this.client = QueryClient.withExtensions(tmClient, setupStakingExtension)
+    }
+
+    async getDelegations(){
         let myDelegations = []
         let pagination = undefined
         do {
             // @ts-ignore
-            const delegations = await client.staking.validatorDelegations(osmoDelegatorAddr, pagination)
+            const delegations = await this.client.staking.validatorDelegations(this.validatorAddr, pagination)
             pagination = delegations.pagination?.nextKey
             myDelegations.push(...delegations.delegationResponses)
             console.log(myDelegations.length)
@@ -23,8 +31,15 @@ async function main() {
        } while (pagination && pagination.length > 0)
        return myDelegations
     }
+}
+
+async function main() {
+    const osmoDelegatorAddr = "osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw"
+    const rpcUrl = "https://osmosis-mainnet-rpc.allthatnode.com:26657"
+
+    const validator = new Validator(osmoDelegatorAddr, rpcUrl)
     
-    const myDelegations = await getDelegation()
+    const myDelegations = await validator.getDelegations()
     myDelegations.sort((a, b) => {
         invariant(a.balance, "plop")
         invariant(b.balance, "plop")
