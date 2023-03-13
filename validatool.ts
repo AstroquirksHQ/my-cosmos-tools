@@ -127,8 +127,11 @@ async function main() {
     }
     console.log(`----------- FINAL SORT BY OSMO BALANCE START -----------`)
     top30validator.sort(Utils.sortDelegationsByBalanceOsmo)
-    for (const delegator of top30validator) {
-        console.log(delegator)
+    for (let i = 0; i < 30 && i < top30validator.length; i++) {
+        console.log("-------------------------------")
+        console.log(`NUMBER : [${i+1}]`)
+        console.log(top30validator[i])
+        console.log("-------------------------------")
     }
     console.log(`----------- FINAL SORT BY OSMO BALANCE END -----------`)
 
