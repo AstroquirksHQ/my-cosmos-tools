@@ -35,9 +35,10 @@ class Validator {
 
 async function main() {
     const osmoDelegatorAddr = "osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw"
-    const rpcUrl = "https://osmosis-mainnet-rpc.allthatnode.com:26657"
+    const rpcUrl = "https://osmosis-rpc.polkachu.com"
 
     const validator = new Validator(osmoDelegatorAddr, rpcUrl)
+    await validator.connect()
     
     const myDelegations = await validator.getDelegations()
     myDelegations.sort((a, b) => {
