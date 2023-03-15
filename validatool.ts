@@ -1,12 +1,30 @@
 import { Tendermint34Client } from "@cosmjs/tendermint-rpc";
-import { Coin, QueryClient, StakingExtension } from "@cosmjs/stargate";
+import { Coin, QueryClient, StakingExtension, StargateClient } from "@cosmjs/stargate";
 import { setupStakingExtension } from "@cosmjs/stargate";
-import { DelegationResponse } from "cosmjs-types/cosmos/staking/v1beta1/staking";
+import { DelegationResponse, Delegation } from "cosmjs-types/cosmos/staking/v1beta1/staking";
 import invariant from "invariant"
+import { Pubkey } from "@cosmjs/amino";
+import { pubkeyToAddress } from "@cosmjs/amino";
 
-interface DelegationBalances extends DelegationResponse {
+interface AstroquirksDelegation extends DelegationResponse {
     balanceOsmo: Coin
+    pubkey: string 
+    osmoAddr: string
+    network: string
 }
+
+// for final ranking
+interface AstroquirksDelegations {
+    [pubkey: string]: any;
+}
+// for final ranking
+interface AstroquirksFinalDelegations {
+    delegations: Delegation[]
+    balanceOsmo: Coin
+    balances: Coin[]
+    pubkey: string
+}
+
 
 class Utils {
     static sortDelegations(a: DelegationResponse, b: DelegationResponse){
@@ -23,9 +41,9 @@ class Utils {
         }
     }
 
-    static sortDelegationsByBalanceOsmo(a: DelegationBalances, b: DelegationBalances){
-        invariant(a.balance, "balance not found")
-        invariant(b.balance, "balance not found")
+    static sortDelegationsByBalanceOsmo(a: AstroquirksFinalDelegations, b: AstroquirksFinalDelegations){
+        invariant(a.balanceOsmo, "balance not found")
+        invariant(b.balanceOsmo, "balance not found")
         const sharesA = Number(a.balanceOsmo.amount);
         const sharesB = Number(b.balanceOsmo.amount); 
         if (sharesA < sharesB) {
@@ -37,28 +55,30 @@ class Utils {
         }
     }
 
-    static addBalanceInOsmo(delegation: DelegationResponse, priceCoeff: number): DelegationBalances{
-        const delegationBalance = delegation as DelegationBalances
-        invariant (delegationBalance.balance, "no balance")
-        const osmoAmount = Number(delegationBalance.balance.amount) * priceCoeff
-        delegationBalance.balanceOsmo = {
+    static addBalanceInOsmo(delegation: DelegationResponse, priceCoeff: number): AstroquirksDelegation{
+        const astroDelegation = delegation as AstroquirksDelegation
+        invariant (astroDelegation.balance, "no balance")
+        const osmoAmount = Number(astroDelegation.balance.amount) * priceCoeff
+        astroDelegation.balanceOsmo = {
             denom: "uosmo",
             amount: osmoAmount.toString()
         }
-        return delegationBalance
+        return astroDelegation
     }
 
     
 }
 
 class Validator {
-    private client!: QueryClient & StakingExtension;
+    private client!: QueryClient & StakingExtension
     private validatorAddr: string
     private rpcUrl: string
+    private network: string
 
-    constructor(validatorAddr: string, rpcUrl: string){
+    constructor(validatorAddr: string, rpcUrl: string, network: string){
         this.validatorAddr = validatorAddr
         this.rpcUrl = rpcUrl
+        this.network = network
     }
 
     async connect():  Promise<void> {
@@ -81,6 +101,47 @@ class Validator {
     }
  
 }
+
+class AddrHelper {
+    private client!: StargateClient
+    private rpcUrl: string
+    
+    constructor(rpcUrl: string){
+        this.rpcUrl = rpcUrl
+    }
+
+    async connect():  Promise<void> {
+        this.client = await StargateClient.connect(this.rpcUrl)
+    }
+
+
+    async addPubkey(delegation: DelegationResponse){
+        const astroDelegation = delegation as AstroquirksDelegation
+        invariant(delegation.delegation, "hum")
+        console.log(`try add pubkey for ${delegation.delegation.delegatorAddress}`)
+        try {
+            const account = await this.client.getAccount(delegation.delegation.delegatorAddress)
+            if (account == null){
+                console.log(`no pubkey for ${delegation.delegation.delegatorAddress}`)
+            }
+            const pubkey =  account!.pubkey
+            if (pubkey == null){
+                console.log(`no pubkey for ${delegation.delegation.delegatorAddress}`)
+            }
+            if (pubkey) {
+                astroDelegation.pubkey = pubkey.value
+                astroDelegation.osmoAddr = pubkeyToAddress(pubkey, "osmo")
+                return astroDelegation
+            } else {
+                astroDelegation
+            }
+        } catch (error) {
+            console.log(`error with address ${delegation.delegation.delegatorAddress}`)
+            return astroDelegation
+        }
+    }
+}
+
 
 interface ValidatorInfo {
     network: string
@@ -111,26 +172,74 @@ async function main() {
         }
     ]
 
-    let top30validator = []
+    let top30delegators = []
     for (const validatorInfo of validatorsInfo) {
         console.log(`----------- ${validatorInfo.network} START -----------`)
-        const validator = new Validator(validatorInfo.delegatorAddr, validatorInfo.rpcUrl)
+        const validator = new Validator(validatorInfo.delegatorAddr, validatorInfo.rpcUrl, validatorInfo.network)
         await validator.connect()
+        const addrHelper = new AddrHelper(validatorInfo.rpcUrl)
+        await addrHelper.connect()
         const myDelegations = await validator.getDelegations()
         myDelegations.sort(Utils.sortDelegations);
         myDelegations.map(x => Utils.addBalanceInOsmo(x, validatorInfo.priceCoeff))
-        top30validator.push(...myDelegations.map(x => x as DelegationBalances))
+        await Promise.all(myDelegations.map(x => addrHelper.addPubkey(x)))
+        top30delegators.push(...myDelegations.map(x => x as AstroquirksDelegation))
         for (let i = 0; i<30; i++){
             console.log(myDelegations[i])
         }
         console.log(`----------- ${validatorInfo.network} END -----------`)
     }
-    console.log(`----------- FINAL SORT BY OSMO BALANCE START -----------`)
-    top30validator.sort(Utils.sortDelegationsByBalanceOsmo)
-    for (let i = 0; i < 30 && i < top30validator.length; i++) {
+    
+    
+        
+    console.log(`----------- FINAL SORT BY OSMO BALANCE and pubkey START -----------`)
+
+    // do some reduce
+    // loop through the objects
+    const top30ByPkeydelegators: AstroquirksDelegations = {};
+    for (const delegator of top30delegators) {
+        invariant(delegator.delegation, "NOPE")
+
+        // if we haven't seen this pubkey before, add it to the grouped objects
+        if (!top30ByPkeydelegators[delegator.pubkey]) {
+            top30ByPkeydelegators[delegator.pubkey] = {
+            delegations: [delegator.delegation],
+            balances: [delegator.balance],
+            balanceOsmo: Number(delegator.balanceOsmo.amount)
+            };
+        } else {
+            // no pubkey so we index by address
+            if (delegator.pubkey === 'undefined' || delegator.pubkey == null){
+                top30ByPkeydelegators[delegator.delegation.delegatorAddress] = {
+                    delegations: [delegator.delegation],
+                    balances: [delegator.balance],
+                    balanceOsmo: Number(delegator.balanceOsmo.amount)
+                }
+            } else {
+                // if we've seen this pubkey before, update the delegation array and balanceOsmo
+                top30ByPkeydelegators[delegator.pubkey].delegations.push(delegator.delegation);
+                top30ByPkeydelegators[delegator.pubkey].balances.push(delegator.balance);
+                top30ByPkeydelegators[delegator.pubkey].balanceOsmo += Number(delegator.balanceOsmo.amount);
+            }
+        }
+    }
+    const finalTop30delegators: AstroquirksFinalDelegations[] = []
+    for (const pubkey in top30ByPkeydelegators) {
+        const { delegations, balances, balanceOsmo } = top30ByPkeydelegators[pubkey];
+        finalTop30delegators.push({
+          delegations,
+          balances,
+          balanceOsmo,
+          pubkey,
+        });
+      }
+
+
+    finalTop30delegators.sort(Utils.sortDelegationsByBalanceOsmo)
+    for (let i = 0; i < 30 && i < finalTop30delegators.length; i++) {
         console.log("-------------------------------")
         console.log(`NUMBER : [${i+1}]`)
-        console.log(top30validator[i])
+        console.log(finalTop30delegators[i])
         console.log("-------------------------------")
     }
     console.log(`----------- FINAL SORT BY OSMO BALANCE END -----------`)
