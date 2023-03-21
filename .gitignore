@@ -23,3 +23,5 @@ tsconfig.tsbuildinfo
 # Package lock files
 yarn.lock
 package-lock.json
+
+.env

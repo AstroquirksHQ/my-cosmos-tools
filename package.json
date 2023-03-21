@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "validatool": "node dist/validatool.js"
+    "validatool": "node dist/validatool.js",
+    "starsSend": "node dist/starsSend.js"
   },
   "author": "",
   "license": "ISC",

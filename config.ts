@@ -1,0 +1,1 @@
+export const STARS_SEND_MNEMO = process.env.STARS_SEND_MNEMO || 'mountain prosper second fun text siege shiver rookie entry gold vote success';
