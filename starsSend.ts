@@ -52,13 +52,14 @@ async function main() {
 
     const gasLimit = await client.simulate(firstAccount.address, [executeContractMsg], "from Astroquirks with <3")
     console.log("gasLimit", gasLimit)
+    const gasLimitUp = gasLimit + 100000
 
     const fee = {
       amount: [{
         denom: "ustars",
         amount: "2000"
       }],
-      gas: gasLimit.toString(),
+      gas: gasLimitUp.toString(),
     };
 
     const txBroadcastResult = await client.signAndBroadcast(firstAccount.address, [executeContractMsg], fee, "from Astroquirks with <3");
