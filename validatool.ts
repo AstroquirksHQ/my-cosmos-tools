@@ -10,6 +10,7 @@ interface AstroquirksDelegation extends DelegationResponse {
     balanceOsmo: Coin
     pubkey: string 
     osmoAddr: string
+    starsAddr: string
     network: string
 }
 
@@ -23,6 +24,7 @@ interface AstroquirksFinalDelegations {
     balanceOsmo: Coin
     balances: Coin[]
     pubkey: string
+    starsAddr: string
 }
 
 
@@ -131,6 +133,7 @@ class AddrHelper {
             if (pubkey) {
                 astroDelegation.pubkey = pubkey.value
                 astroDelegation.osmoAddr = pubkeyToAddress(pubkey, "osmo")
+                astroDelegation.starsAddr = pubkeyToAddress(pubkey, "stars")
                 return astroDelegation
             } else {
                 astroDelegation
@@ -168,7 +171,7 @@ async function main() {
             network: "stargaze",
             delegatorAddr: starsDelegatorAddr,
             rpcUrl: starsRpcUrl,
-            priceCoeff: 0.0237 // 1 STARS = 0.0237 OSMO
+            priceCoeff: 0.0218 // 1 STARS = 0.0218 OSMO
         }
     ]
 
@@ -184,7 +187,7 @@ async function main() {
         myDelegations.map(x => Utils.addBalanceInOsmo(x, validatorInfo.priceCoeff))
         await Promise.all(myDelegations.map(x => addrHelper.addPubkey(x)))
         top30delegators.push(...myDelegations.map(x => x as AstroquirksDelegation))
-        for (let i = 0; i<30; i++){
+        for (let i = 0; i<35; i++){
             console.log(myDelegations[i])
         }
         console.log(`----------- ${validatorInfo.network} END -----------`)
@@ -205,7 +208,8 @@ async function main() {
             top30ByPkeydelegators[delegator.pubkey] = {
             delegations: [delegator.delegation],
             balances: [delegator.balance],
-            balanceOsmo: Number(delegator.balanceOsmo.amount)
+            balanceOsmo: Number(delegator.balanceOsmo.amount),
+            starsAddr: delegator.starsAddr
             };
         } else {
             // no pubkey so we index by address
@@ -213,7 +217,8 @@ async function main() {
                 top30ByPkeydelegators[delegator.delegation.delegatorAddress] = {
                     delegations: [delegator.delegation],
                     balances: [delegator.balance],
-                    balanceOsmo: Number(delegator.balanceOsmo.amount)
+                    balanceOsmo: Number(delegator.balanceOsmo.amount),
+                    starsAddr: delegator.starsAddr
                 }
             } else {
                 // if we've seen this pubkey before, update the delegation array and balanceOsmo
@@ -225,24 +230,31 @@ async function main() {
     }
     const finalTop30delegators: AstroquirksFinalDelegations[] = []
     for (const pubkey in top30ByPkeydelegators) {
-        const { delegations, balances, balanceOsmo } = top30ByPkeydelegators[pubkey];
+        const { delegations, balances, balanceOsmo, starsAddr} = top30ByPkeydelegators[pubkey];
         finalTop30delegators.push({
           delegations,
           balances,
           balanceOsmo,
           pubkey,
+          starsAddr
         });
       }
 
 
     finalTop30delegators.sort(Utils.sortDelegationsByBalanceOsmo)
-    for (let i = 0; i < 30 && i < finalTop30delegators.length; i++) {
+    for (let i = 0; i < 35 && i < finalTop30delegators.length; i++) {
         console.log("-------------------------------")
         console.log(`NUMBER : [${i+1}]`)
         console.log(finalTop30delegators[i])
         console.log("-------------------------------")
     }
     console.log(`----------- FINAL SORT BY OSMO BALANCE END -----------`)
+
+    const slimList = finalTop30delegators.slice(0, 40).filter(x => x.starsAddr !== undefined).map((x, i) => ({
+        "recipient": x.starsAddr,
+        "token_id": (i+1).toString(),
+    }));
+    console.log(slimList)
 
    
 }
