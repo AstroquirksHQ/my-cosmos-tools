@@ -3,32 +3,39 @@ $ node dist/validatool.js
 ----------- osmosis START -----------
 100
 Uint8Array(42) [
-   20,  85, 176, 186, 225,  60, 117, 252, 204,
-  179,  56, 246,  42,  66, 195, 251, 206,  75,
-   82, 128, 114,  20, 202, 253, 238,  67, 135,
-    2, 175, 209, 161, 132, 228,  63,  80,   8,
-  100, 203,  14,  99, 172, 174
+   20,  69,  47, 137,  58, 160, 237,  10, 205,
+  225, 231, 216, 187, 216, 163, 254, 111, 210,
+   94, 138, 207,  20, 227,  62, 164,  22, 109,
+   56,  22, 185,  72, 134, 148,  34, 243, 121,
+   50,  63, 142, 216, 185, 117
 ]
 200
 Uint8Array(42) [
-   20, 164, 137,  32, 101, 233, 151,  13,  51,
-   71,  26,  44, 244,  58, 244,  81, 130, 110,
-  222, 252,  69,  20,  21,  12,  66,  76,  69,
-  203, 184, 151, 214, 188, 235, 179,   7, 125,
-  188,  92, 106,  40, 212,  81
+   20, 125,  39, 162, 188, 132, 223, 213, 190,
+   84, 254, 181, 160,  60, 104,  86, 124, 191,
+  164,  32, 225,  20, 212,  11, 169, 150, 197,
+   16, 150, 212,  72, 135,   5,  65, 131,   6,
+  183, 159, 156, 226, 156,  22
 ]
-297
+300
+Uint8Array(42) [
+   20, 183, 152, 193, 150, 244, 197, 176,
+  231, 155,  53, 122, 189, 127, 122, 149,
+  215, 106,  49, 118, 216,  20, 175, 118,
+  222,  94,  93,  16,  46, 229, 218, 251,
+  213, 184, 182, 224, 149, 225, 168,  46,
+  137,  52
+]
+394
 Uint8Array(0) []
 try add pubkey for osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry
 try add pubkey for osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7
 try add pubkey for osmo1f4n4a3xyun8ntgk9skh50t2l884vfyej0hef6g
-try add pubkey for osmo1jvpvt9n2g0m366j3hjte4xvctpej2dc9l7n38d
 try add pubkey for osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus
 try add pubkey for osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6
 try add pubkey for osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57
 try add pubkey for osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36
 try add pubkey for osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5
-try add pubkey for osmo15mnhu79vupl6kuwrt9mde2tznefgfcw6v76vj5
 try add pubkey for osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f
 try add pubkey for osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd
 try add pubkey for osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf
@@ -48,30 +55,24 @@ try add pubkey for osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz
 try add pubkey for osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq
 try add pubkey for osmo1plqn3j5272katu9leffl8ysc8kgparcrgap89v
 try add pubkey for osmo12kct4cfuwh7vevec7c4y9slmee949qrjanfah9
+try add pubkey for osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0
 try add pubkey for osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja
 try add pubkey for osmo1zkgd39ejlx543evahr32mywm2jk84vkw0anvwr
 try add pubkey for osmo1r75xf6ht5yhhv2lyz3e50fcjdjsqnhhyputuj7
 try add pubkey for osmo1gjzs0qd88puzl3w875tetg82ryh2geg03x6fru
-try add pubkey for osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0
-try add pubkey for osmo1xwsuu8ghamx89dtqqw6tdskeyusr9e9cneuavp
 try add pubkey for osmo1fnx2uxe632f4uw5uqewds5gamqw9q5p959xqmy
 try add pubkey for osmo1egj99ytf390kuek55y00sefcxl7re0pjzwj6ne
 try add pubkey for osmo152r6lxwas7kywdr0xk4sx305dy6mxyz6ez8h99
 try add pubkey for osmo1e533m29emngs7camh5rjzpxkr0ngyuekx78z06
-try add pubkey for osmo18y2yjx5rkly2qf49d84m757fq7t9pf909a8shj
 try add pubkey for osmo1w4359wxq8egk2ucq4g7l6zd0z3udaful38tgpf
+try add pubkey for osmo18y2yjx5rkly2qf49d84m757fq7t9pf909a8shj
 try add pubkey for osmo1n3f9rc5hkxp3xnat5kv8jsqctfgqd4g4vfrylp
-try add pubkey for osmo1zdye5tapgqdmf2vxyswsye8060gt37j0vugj8n
 try add pubkey for osmo1ffmtjltr4lfmlgdj0uq9e7zjjwc06h59tndyd3
-try add pubkey for osmo1hvxa2xvchr6rfascjhes8c2ytc3ghl7s63nftr
-try add pubkey for osmo1ctkk94dagw77nmw7d2t9az02jx9fx2nw24htd3
-try add pubkey for osmo1m3h7hkpsanl483usqy7vuq4v7f45jufxyz994a
 try add pubkey for osmo1g5hcjw4qa59vmc08mzaa3gl7dlf9azk0uhxhk8
-try add pubkey for osmo1k4k9tlktn76gz2afs992t6vxstlk7yrtkt5e74
 try add pubkey for osmo15jydgrdfnf0ea4srxkgetpz2spd4vdfl8s8k9a
+try add pubkey for osmo1rlcw7ze0x05ua7hgahxuk0u84fz6vz5fk0tdsl
 try add pubkey for osmo10egt9ncjav6fe9l5zay8z6drnshepxqlzdkaqt
 try add pubkey for osmo1y2j0zqwdw7uw7h7m7awlhvsa8rnc885ppqavjs
-try add pubkey for osmo1rlcw7ze0x05ua7hgahxuk0u84fz6vz5fk0tdsl
 try add pubkey for osmo19354fen9xkgyew0rnqt4uch4mnuyaf3npmrdl7
 try add pubkey for osmo19a0flgcxf4fx4jww0uszxjnk8vxacac04sp5js
 try add pubkey for osmo1ylgnp63wzfmmfahq8w3lmhwku7skc3rf6yquh4
@@ -87,45 +88,39 @@ try add pubkey for osmo1qz96xzx2ayzrafkx59rcnufavtnenhvzmpp5c6
 try add pubkey for osmo1herge8shs6huy5mkgvq23lzt4pjqljvqjudgsy
 try add pubkey for osmo1d7x487deav23wghx74e4mw0dcrdumh63cx4asa
 try add pubkey for osmo1sv4kdv8ptnfhpa5qfccnqfpm3t8jq3mpq5l4w9
-try add pubkey for osmo1gj0klcaulj4u9e780qh92uagjmjp3qf6sft024
 try add pubkey for osmo123txn8maeewuyjnd9y50rh40whnhmckxf7nlq9
 try add pubkey for osmo12ex3j26jz6fgt5cmgdsvkpgsmwhrwyc2ay55ja
 try add pubkey for osmo1krtvs0vgdmzku03ek7gyt3gmt5u0keac4kwvuw
 try add pubkey for osmo1f24q2t25jyetmwu5m05deellucuglk2jp06nd5
 try add pubkey for osmo1wzyhtkp48l5ja9wfqsuz5kr5dpyqj7l3zznyme
-try add pubkey for osmo1eww3v3c8fcgasacgrylk08ppatkjahym0unu59
 try add pubkey for osmo12s0edn0erxenjplax2dxazcyh65r58mnxdt3ew
 try add pubkey for osmo1v92dav3kyarp8dsjqve9wqfvyhm5xxqgefmh5q
-try add pubkey for osmo1z43td5vz7kd089t98rshvqppsvpvc8frn6v3vu
 try add pubkey for osmo1xcc3pavyn2zj59xe0rrwecyy7n5has0h2jy64c
 try add pubkey for osmo1c62k8j5cckw33qkg6sd4hvs7xs7fk0zh6zlzm0
 try add pubkey for osmo19nl8fmj9h8frr2sq9tcm8hmf0y2vk43vxncdze
 try add pubkey for osmo12w5hh670ltsvwzse76nnnutta6zdzf00z8r6ev
 try add pubkey for osmo1ql87vd4f27a2llr57en5456vp6q5updaqlhkmy
-try add pubkey for osmo1kpz70lr2402qt8d3f5zgdq4smslap83w6l2axd
-try add pubkey for osmo132nht3saupyzucwg7ghspgvt5dhgsgnhlphmwn
-try add pubkey for osmo1tge37584tnml4n3v8ch29743700jem2zkhrpfz
 try add pubkey for osmo104xuzvkx2gvk8r0asvah0uxy6r33hjlvpk4avn
+try add pubkey for osmo1kpz70lr2402qt8d3f5zgdq4smslap83w6l2axd
+try add pubkey for osmo1tge37584tnml4n3v8ch29743700jem2zkhrpfz
 try add pubkey for osmo1r5f9ruu0tc2tpdt2y6qfegkhtxdv4k2uuw3d2u
 try add pubkey for osmo1l9jqe42l8nq4tk2n2nu06897xvsets0aclj37x
 try add pubkey for osmo143ekc9gulexjezuu9nrt0a05f429ekq93c5tm5
 try add pubkey for osmo1fdrmewgsdejuj4c7rcy9cl8y95zrgax7kurjnd
-try add pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
 try add pubkey for osmo1v6akkxmkclq9rcjdwym4qps9jc6patjkysg64l
+try add pubkey for osmo125hwc6q8zt7pfyqeew4fgwrq6l9u9l6xtanwhn
 try add pubkey for osmo1fpc0k82a9qrrph0ufta7q7ajwj2z6mu3t7aeg9
 try add pubkey for osmo1gcks0lwgw7x5p20yw23djd327gt8w0lp28zzk3
 try add pubkey for osmo1ctfwwaxgwu4u45wvzxe5cky2zw8k9t6qt95hhn
-try add pubkey for osmo1ggqpff3g7mfv2wynswfmtr3gnvq4easus0w9vx
 try add pubkey for osmo1mhw4h8drm0lvmp4egm7dy2c4wxh6clvsmgmhyv
 try add pubkey for osmo1ymk2669m0w0q57ve0yuyp4q2zu88jpskw8nn3t
 try add pubkey for osmo1272xzx6xzh6yy9ad7qcx69ht920pkq2g3y2jkt
 try add pubkey for osmo1d4hpzu2jut8vzq696gufhx2sp9xd5uk98hzpcq
 try add pubkey for osmo1zln233z7xnasydvs5gkaehvux9clvq8yf6dmgf
 try add pubkey for osmo1mr295ru9rpadqghpejdzsszm7gp7l93jt3k6g7
-try add pubkey for osmo17ucurfjjcenxey3uz5lr5jk6gxsn06p086pgle
 try add pubkey for osmo1kyn2wwqvgkmlp8hurkztp7n84jdh0et4knnaxu
+try add pubkey for osmo17ucurfjjcenxey3uz5lr5jk6gxsn06p086pgle
 try add pubkey for osmo10e0dtt5acr7gxthmlfzmjq9tfd4c0kadvy2gh4
-try add pubkey for osmo1zudhy3cd2j0dua4j06ak27dff4al9rxljmxfmf
 try add pubkey for osmo1230mxz4tcynq3np7frwsfvzs7hcsczhcx6wr5h
 try add pubkey for osmo1t4a2e52pmwmt8t8vxz49w6gfx8m68s8rv09ev9
 try add pubkey for osmo153nglc6lrrdjstdtuszc0ehmygxl6zlkpenzag
@@ -142,6 +137,7 @@ try add pubkey for osmo1uwe3r2qrfxsxd9z7xvhw4uteqddee4a3xcjr02
 try add pubkey for osmo170teyfnnzgyqer688nhf2mcswq04ls235ezrqw
 try add pubkey for osmo14clev2k5lzzlkd3xg8940epkpv5vpk6yq7gs9u
 try add pubkey for osmo1tzldzu9863l3t7vyap4nxpw74cw4lu9ty65mes
+try add pubkey for osmo1a40w5jlqke357jaun7m09nmxta20w3jy00vhyee687uznm7efdjs5tzyk2
 try add pubkey for osmo17kxl4jlzllkhjfueqafmk37v7mt5kq57u87qug
 try add pubkey for osmo1g2z4e5lghwsswpk3rzvzhvslxyl9dflm4pspmh
 try add pubkey for osmo10nuqjw44vv8su3zuv9g5k5pj8p7dtc3gwmeet5
@@ -235,6 +231,102 @@ try add pubkey for osmo1ljzmg09v9jqlfp06g5uhtttfem43xjeesuehzj
 try add pubkey for osmo1llt7j00mvdmgtcau4fnh9pz6580sxnl48pmzq3
 try add pubkey for osmo1q50hkqt3lx3d9lpsj523n0qj3epr9hfsjdvwlz
 try add pubkey for osmo1r665dj8xe898p7e0qax4v6lpfr8yda2exrlflu
+try add pubkey for osmo196n9thx790lenqqecvwdxcc6vs6xp85vqu4pgv
+try add pubkey for osmo197dh3zejjrpr68a0zglavny7y0mqad0tcr0ksg
+try add pubkey for osmo18z992z8x8evgs9mxuwm0hn9auxlkp65lpvj98k
+try add pubkey for osmo10sntq3yqxljy0672x8f3uvyzgssav9wyrv0e7z
+try add pubkey for osmo1kypxaf2e5tmh40qc30jkewrr06d2nqz7ne2ylc
+try add pubkey for osmo1hpwdxexzdrl4wydy4cduuwwssvx7sjg5s6cws0
+try add pubkey for osmo1utrst38vc5jrj8yzeyxfdkhpu6kggl77h69gf7
+try add pubkey for osmo1qxnrt7fskdj0l48v3c0htj2uqxectgpvpqp3k5
+try add pubkey for osmo1zfc7js2shvn4cdpgdcfhaxf9ltvxwvnmkf0pve
+try add pubkey for osmo1r9qdg54ex677xz0skvkc46gn92y0rz78n9f0wn
+try add pubkey for osmo1rga80p7aq9k82pmztlagc7mvq497f343vej8ef
+try add pubkey for osmo1rspg8eeegenwmejag6pn5xkheyshnuvxjzgrxn
+try add pubkey for osmo1rmcnmadeyhvwda8rjlfesnmppcnd8q9gsuqsm8
+try add pubkey for osmo1ytuan9v22hpywurl9pvm9sak62876n0rcfxwa9
+try add pubkey for osmo1ydnd4zntnckzq77w2q3dy8nqh6gwlmgll3jkwe
+try add pubkey for osmo1y0lfk4mfrumn2npu33edcs7fff2vxa4vfwjse9
+try add pubkey for osmo19v4pu5yws6jkn77cjtd4fftgd4g4rq2deh56yj
+try add pubkey for osmo19dpqe2ftvmu6cn96tk8p89kxxrngz0zttejuks
+try add pubkey for osmo193lsc5fkajpt5a75hcq4lftdpwyykqg8zddke9
+try add pubkey for osmo1xqu7mxassp7c2xdudk92tad2fduxq7mgy3tjvc
+try add pubkey for osmo1x2ydpjzfz5j6ujy4gl9jnjs9eaxvvrhhd7w525
+try add pubkey for osmo1x70vsn78pn0lh5w07dw8f7mpvg06zwc5ldtzf2
+try add pubkey for osmo189x2kghdjegh47v5n6frp5caj8zt450xpy5w3j
+try add pubkey for osmo18cs8yzv3lcdydemmp35qj6zdafltp0yyexatya
+try add pubkey for osmo1gg55dkcm3jpz94mk82a8ca4ml37dau5e2m0szn
+try add pubkey for osmo1g48hfk7psurw8zzs5ys4jfp2eensqc83jpmtqq
+try add pubkey for osmo1gkwlsd2nxlv5z3h9uf0w0sftpmqq26703hh5he
+try add pubkey for osmo1gm0r3wqxvv94unju83flp0qzrgnyv8qc6xp943
+try add pubkey for osmo1fyu6sk205mfk6m2cap9gczpk4hrpy0rmvg6qh6
+try add pubkey for osmo1fc9chv4wf3zpaegtklyphaqm9xeqcw44jcxl09
+try add pubkey for osmo12gt2zpnlza909jwx40fe7qc67mvuwm4ej6gn56
+try add pubkey for osmo12w2efqqhdum8jd9hffl73wadp7gvwfdjmhr73v
+try add pubkey for osmo1243evc90as4q4havqxy98rnhv6kdhd8wz62zqp
+try add pubkey for osmo12h2j4xt9dc7g4z929zrpzmnnh43alxl6pg9a3u
+try add pubkey for osmo126ym2psm3k5qtgaal8meavcff72g7aztx2d9rd
+try add pubkey for osmo126n05prqrtwwr46ks6j2jymu2e5mweqpqvdswt
+try add pubkey for osmo127jqeqyhvq4w3q04n00a8urxnr85g9qle0p2rl
+try add pubkey for osmo12l0sj9hkq33w3xhfcraxh43kg5ut9k7w9a5gp0
+try add pubkey for osmo1t45tjju3x5kqv2ch96ga7xdkdrueg5lan60rn7
+try add pubkey for osmo1v9q2ds8nfm6qcx5jy0hysqzx4rqtrnzcuzs0yv
+try add pubkey for osmo1v9567xwr2rc03rmd0uwlnj0tqhvm8hv0mvfz64
+try add pubkey for osmo1v5zthd4txqp9p3xre74yk7v5ny902wr4duzchm
+try add pubkey for osmo1drh6q9dqq9nr34m8924xrg5jvnacsx4jy38v8d
+try add pubkey for osmo1djucxpag8n90wfdwgmkc8kh8qrwrvulgct850s
+try add pubkey for osmo1daw8p5r5pw0vvddf3hppff3rcmuckpe463nytr
+try add pubkey for osmo1wpwgwdawfkaderxxf7r776u6pjktddkr5l7nzx
+try add pubkey for osmo1w9nv9t5g0mmep3gsqzahsu3dyc5axl7n3kwglv
+try add pubkey for osmo1wxh2mm92ze0zq8wk77wvup0za8074l7uaha08n
+try add pubkey for osmo1w7q9v8mxwp75mptj7fer9c944kxenwge0k0lfc
+try add pubkey for osmo10vexwqzpm7dqmvltt3dqnshr82d3fcchw6nq5z
+try add pubkey for osmo10wnntvm43q9q0kazck2sre9qhzqkhgjulgughy
+try add pubkey for osmo1002952336k3738lyfj93pmqwz20u9ug23p0rup
+try add pubkey for osmo105nwqjq826wzrkanqtrjcwr4kx7ctgl4u2jxks
+try add pubkey for osmo105u7m78uatg5fsejk9jn4n7nlpd37c9c7phc5r
+try add pubkey for osmo10hvnvj4e0tn0c6j6s54rux2srgpswpzsxdptsa
+try add pubkey for osmo10uw6ks5s8rf8r5hag0wvq42lsvve2l99ektx88
+try add pubkey for osmo107g5gffk6g7hjzu4nxav3ae4sglt3at8e7sl09
+try add pubkey for osmo107403v4wntsf2amtzlu6eylc54afv6s2s7gyq0
+try add pubkey for osmo10lw2r36nrl5j0y92t2ss8twpffzer3w0nt4ul3
+try add pubkey for osmo1spcrums5sz2l7m6kr86ulst2wvymcgk7pcnfek
+try add pubkey for osmo1sx9g0pn9js2q2pkstvvlmjhvw7s0vg9hv3swpn
+try add pubkey for osmo1s8f5tvxk9ffv67zkgdweyg4a2pfasljhtgvxuy
+try add pubkey for osmo1svsscnqyzvxjrzt33tmkpt8tyt5s2gtzxgl86j
+try add pubkey for osmo1sc4le3apgrn205sqqpjqg8dqnmq4a0mfc2gqcd
+try add pubkey for osmo13g3egeqmsmglgjt7067pzujee7zsrn60lk4ayf
+try add pubkey for osmo132zjuja5hrc904nqlcew4w66w4dmhc3k27jzas
+try add pubkey for osmo1js297tq208na5n027mq5tn0rast7nlzdcc0ud6
+try add pubkey for osmo1nr60ylfgzq25mt6f7w8lsmqu93c0ayswuzxx8f
+try add pubkey for osmo15dku77ursw3c2q49weg9jcxh3jqt9qtzzuy9mm
+try add pubkey for osmo1533r5cmgwc49n63l2pfz4l9flkcn62hu9fdzqd
+try add pubkey for osmo15hawkgkq2yfk2vtsuh6cghmglfzhss2ruvr2mp
+try add pubkey for osmo14s56d89t4zqu7v9qpk3qc4nccyknauyqdwflgx
+try add pubkey for osmo14a547g02azy7djw3y2u57ml46fc3rhdksfr74s
+try add pubkey for osmo1kr3ge2zz2jv6a0xpc7xflmsv0yvx4cfld4p89h
+try add pubkey for osmo1kml6xv9x75hlcrrtksca3etzec3dd0utn84sv5
+try add pubkey for osmo1htwneu4ea5jypphzj244f0e6cwxw92nn84h77y
+try add pubkey for osmo1hdaruany98kw6enlrs2q3f95ralh6umfcu3tnc
+try add pubkey for osmo1cz7kkmzskpu3r6tk2q9egjvfuhnkxm7n83pjjp
+try add pubkey for osmo1cruh24xf8064x5c959xwmqd8xdgrr96e32huyp
+try add pubkey for osmo1c3quc697w2q36kzsfr9cewx3au62qcr6d7tyrj
+try add pubkey for osmo1c6vxvgthy5cnhczwre6qmjymrdskgetkgwvzz8
+try add pubkey for osmo1el7zwcggxck0k6wfzyr3fmx2yq6rfsgvh0qzk8
+try add pubkey for osmo162v29aqgvn4wtzad4ltvqafzndcguf785y5ffd
+try add pubkey for osmo164ad3qya4lx3ywkvthdthkvwg59kk07ppuxffk
+try add pubkey for osmo16uuq5wh6tvvh0ygxtjvc8zj8s0xggxz9d9xtdp
+try add pubkey for osmo1mzdqscxm3jvwl9y0rmaj0ue7y3ck5ckykp55vl
+try add pubkey for osmo1m42p0v6nwcyqutqvkwv7lh9faa2wj7pdmrwj4m
+try add pubkey for osmo1m4k4tn24pj4828cnvnfhh3fumszqj56wnpy7zt
+try add pubkey for osmo1m6l59pl6sm8mazlxug24jsyk632g203050z2ym
+try add pubkey for osmo1uxevamv750l37xqec7fkwega44xje4s504stwr
+try add pubkey for osmo1u8pullp5rjf2awhg9xwyn87sr4nlrgzgwt4kpk
+try add pubkey for osmo1utl7727xynxhfvnap538uz25xneap5ca6tdgvm
+try add pubkey for osmo1uh245eq0huyq8pzzyfmjslp9fqvjqme5smpgq7
+try add pubkey for osmo17vkpk8pupussmnrsc5t729kku3pgy7c7fxsqn2
+try add pubkey for osmo1ly2fqqe5x9q98p7gl2vqykr8c2gpmlulln23z9
+try add pubkey for osmo1lje26q2dfuzlfzzy2trqfl24ts9e7yw32k8gjp
 try add pubkey for osmo1qr9689dqzvgvpvswrusg2t4ajfh6ul75t6kxy8
 try add pubkey for osmo1qjr2rztd8aus3cfuaxpmh4t23yym2a3p2fdfrv
 try add pubkey for osmo1qnwvepnx5pcudn3r2v9yc63zvnxju354w4rvq5
@@ -316,20 +408,7 @@ try add pubkey for osmo17ts3tsk78swxfat0t00jgtct7k45enp0q0akcn
 try add pubkey for osmo176032n9xnkhv732mgypd4ynt2mllk6ylcethyx
 try add pubkey for osmo1lctrakgskwqt8xymltkj0a4ahqt044h5m242yj
 try add pubkey for osmo1tgl8ptrknr0puafcnldm7n2g8vhjxhuml4mh4k
-no pubkey for osmo1jvpvt9n2g0m366j3hjte4xvctpej2dc9l7n38d
-no pubkey for osmo15mnhu79vupl6kuwrt9mde2tznefgfcw6v76vj5
-no pubkey for osmo1ctkk94dagw77nmw7d2t9az02jx9fx2nw24htd3
-no pubkey for osmo1zdye5tapgqdmf2vxyswsye8060gt37j0vugj8n
-no pubkey for osmo1m3h7hkpsanl483usqy7vuq4v7f45jufxyz994a
-no pubkey for osmo1k4k9tlktn76gz2afs992t6vxstlk7yrtkt5e74
-no pubkey for osmo1hvxa2xvchr6rfascjhes8c2ytc3ghl7s63nftr
-no pubkey for osmo132nht3saupyzucwg7ghspgvt5dhgsgnhlphmwn
-no pubkey for osmo1eww3v3c8fcgasacgrylk08ppatkjahym0unu59
-no pubkey for osmo1z43td5vz7kd089t98rshvqppsvpvc8frn6v3vu
-no pubkey for osmo1xwsuu8ghamx89dtqqw6tdskeyusr9e9cneuavp
-no pubkey for osmo1zudhy3cd2j0dua4j06ak27dff4al9rxljmxfmf
-no pubkey for osmo1ggqpff3g7mfv2wynswfmtr3gnvq4easus0w9vx
-no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
+error with address osmo1a40w5jlqke357jaun7m09nmxta20w3jy00vhyee687uznm7efdjs5tzyk2
 {
   delegation: {
     delegatorAddress: 'osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry',
@@ -339,18 +418,20 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '88888000000' },
   balanceOsmo: { denom: 'uosmo', amount: '88888000000' },
   pubkey: 'Aqa8OwzeG1gQjMRMTwG+ROVlA1w9wMK2C8x+QlrLwSgl',
-  osmoAddr: 'osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry'
+  osmoAddr: 'osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry',
+  starsAddr: 'stars17vz8hvg96lddwawdfygvu89ua4v7qgd6aklg78'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '19029901918000000000000000000'
+    shares: '19106681100000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '19029901918' },
-  balanceOsmo: { denom: 'uosmo', amount: '19029901918' },
+  balance: { denom: 'uosmo', amount: '19106681100' },
+  balanceOsmo: { denom: 'uosmo', amount: '19106681100' },
   pubkey: 'Ay1WoY2Bchr2CdGV9sSjp17mngbd2/JpevPXllSODk5k',
-  osmoAddr: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7'
+  osmoAddr: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7',
+  starsAddr: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a'
 }
 {
   delegation: {
@@ -361,113 +442,104 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '18888000000' },
   balanceOsmo: { denom: 'uosmo', amount: '18888000000' },
   pubkey: 'AlowMB3adYjBKSb8vxhzrH6irfwj4HVtbuKH5Ff+PVVl',
-  osmoAddr: 'osmo1f4n4a3xyun8ntgk9skh50t2l884vfyej0hef6g'
-}
-{
-  delegation: {
-    delegatorAddress: 'osmo1jvpvt9n2g0m366j3hjte4xvctpej2dc9l7n38d',
-    validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '7690454737000000000000000000'
-  },
-  balance: { denom: 'uosmo', amount: '7690454737' },
-  balanceOsmo: { denom: 'uosmo', amount: '7690454737' }
+  osmoAddr: 'osmo1f4n4a3xyun8ntgk9skh50t2l884vfyej0hef6g',
+  starsAddr: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '6397141646000000000000000000'
+    shares: '6422951940000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '6397141646' },
-  balanceOsmo: { denom: 'uosmo', amount: '6397141646' },
+  balance: { denom: 'uosmo', amount: '6422951940' },
+  balanceOsmo: { denom: 'uosmo', amount: '6422951940' },
   pubkey: 'AlesqAzVv//2G3PA5AKs7cBuTZO+lqO3EdR0+fCX8skl',
-  osmoAddr: 'osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus'
+  osmoAddr: 'osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus',
+  starsAddr: 'stars1j65p8eyn5u08ets4eqksrj43hz7mjpv9mt5ypn'
 }
 {
   delegation: {
     delegatorAddress: 'osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '5938069930000000000000000000'
+    shares: '5962028025000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '5938069930' },
-  balanceOsmo: { denom: 'uosmo', amount: '5938069930' },
+  balance: { denom: 'uosmo', amount: '5962028025' },
+  balanceOsmo: { denom: 'uosmo', amount: '5962028025' },
   pubkey: 'Am5vywMsGsqkZeql+DiR4PbwbTIFVyoqWxdyNSvF3gFp',
-  osmoAddr: 'osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6'
+  osmoAddr: 'osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6',
+  starsAddr: 'stars14x7s5jcup6danjrhvxfajj62jfgnlsda66en5e'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '5902653371000000000000000000'
+    shares: '5926468573000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '5902653371' },
-  balanceOsmo: { denom: 'uosmo', amount: '5902653371' },
+  balance: { denom: 'uosmo', amount: '5926468573' },
+  balanceOsmo: { denom: 'uosmo', amount: '5926468573' },
   pubkey: 'Ap7Olo7yOM0XyidtP4Dz54pSpcf5prTYfCWYna8rl5vl',
-  osmoAddr: 'osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57'
+  osmoAddr: 'osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57',
+  starsAddr: 'stars1tntlr6g3f5mzkguxl58v7y9z403x9fzlg36pfa'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '3960286962000000000000000000'
+    shares: '3976265374000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '3960286962' },
-  balanceOsmo: { denom: 'uosmo', amount: '3960286962' },
+  balance: { denom: 'uosmo', amount: '3976265374' },
+  balanceOsmo: { denom: 'uosmo', amount: '3976265374' },
   pubkey: 'AgV18xQN4thYJhL2bROAeFUBz+GnyLxP05d33i9cWKyh',
-  osmoAddr: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36'
+  osmoAddr: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36',
+  starsAddr: 'stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '3714015915000000000000000000'
+    shares: '3729000705000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '3714015915' },
-  balanceOsmo: { denom: 'uosmo', amount: '3714015915' },
+  balance: { denom: 'uosmo', amount: '3729000705' },
+  balanceOsmo: { denom: 'uosmo', amount: '3729000705' },
   pubkey: 'AyLKOSF+eJYeUcuFu2+eN757KAC2h00tYHydi2olGwQ8',
-  osmoAddr: 'osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5'
-}
-{
-  delegation: {
-    delegatorAddress: 'osmo15mnhu79vupl6kuwrt9mde2tznefgfcw6v76vj5',
-    validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '2854631012000000000000000000'
-  },
-  balance: { denom: 'uosmo', amount: '2854631012' },
-  balanceOsmo: { denom: 'uosmo', amount: '2854631012' }
+  osmoAddr: 'osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5',
+  starsAddr: 'stars1xe99zszd0zqzxc75kvky0hxvvzgkj3lyp2z2yh'
 }
 {
   delegation: {
     delegatorAddress: 'osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '2737343493000000000000000000'
+    shares: '2748387739000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '2737343493' },
-  balanceOsmo: { denom: 'uosmo', amount: '2737343493' },
+  balance: { denom: 'uosmo', amount: '2748387739' },
+  balanceOsmo: { denom: 'uosmo', amount: '2748387739' },
   pubkey: 'AjB9Y6TDEbrI78syv8/kqIUpBSo28cWLskTWZNv+aPjT',
-  osmoAddr: 'osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f'
+  osmoAddr: 'osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f',
+  starsAddr: 'stars10efrdu7x6d6hmy5srvgxk26lxm2875rfev3ng2'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '2645488911000000000000000000'
+    shares: '2656162558000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '2645488911' },
-  balanceOsmo: { denom: 'uosmo', amount: '2645488911' },
+  balance: { denom: 'uosmo', amount: '2656162558' },
+  balanceOsmo: { denom: 'uosmo', amount: '2656162558' },
   pubkey: 'AqAOd6htrDqJ7F+Z3MFXrOwH/Meg7ATs1Bo1XUJm+28Q',
-  osmoAddr: 'osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd'
+  osmoAddr: 'osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd',
+  starsAddr: 'stars1ka8twg94gtqhmhw8x9z6xtnhfmejy2rwztq25w'
 }
 {
   delegation: {
     delegatorAddress: 'osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '2364830237000000000000000000'
+    shares: '2374371522000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '2364830237' },
-  balanceOsmo: { denom: 'uosmo', amount: '2364830237' },
+  balance: { denom: 'uosmo', amount: '2374371522' },
+  balanceOsmo: { denom: 'uosmo', amount: '2374371522' },
   pubkey: 'As8FjNaqi8/EW7ZWcsuXt+Y69jQy+5eNLwzhUxZH5KIP',
-  osmoAddr: 'osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf'
+  osmoAddr: 'osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf',
+  starsAddr: 'stars15ea5sfdcvyvta662xpsn2ugmxz234vrkj0z0w2'
 }
 {
   delegation: {
@@ -478,18 +550,20 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '2171164946' },
   balanceOsmo: { denom: 'uosmo', amount: '2171164946' },
   pubkey: 'AhXxF1EeSXvZfD1w9EpA/7qLwOo8H1c4MP0u/Sf7q3pI',
-  osmoAddr: 'osmo18x855kwcr4sxq3sc6gdq55arshylrfsksqayns'
+  osmoAddr: 'osmo18x855kwcr4sxq3sc6gdq55arshylrfsksqayns',
+  starsAddr: 'stars18x855kwcr4sxq3sc6gdq55arshylrfskv8efwn'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '2131763592000000000000000000'
+    shares: '2140364532000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '2131763592' },
-  balanceOsmo: { denom: 'uosmo', amount: '2131763592' },
+  balance: { denom: 'uosmo', amount: '2140364532' },
+  balanceOsmo: { denom: 'uosmo', amount: '2140364532' },
   pubkey: 'A6i3dzqGtN5IkqiYUnOe9qQhcQ5EYo1pv8qmtqfazDn4',
-  osmoAddr: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh'
+  osmoAddr: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh',
+  starsAddr: 'stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25'
 }
 {
   delegation: {
@@ -500,62 +574,68 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '2000000000' },
   balanceOsmo: { denom: 'uosmo', amount: '2000000000' },
   pubkey: 'AtuLYlPbqLDDNECq+DR+7OuS1s05Zzw1EnFq35ckq4F4',
-  osmoAddr: 'osmo1j7gme9jqtlczwlr3725xwc09s63ksnqlre85r2'
+  osmoAddr: 'osmo1j7gme9jqtlczwlr3725xwc09s63ksnqlre85r2',
+  starsAddr: 'stars1j7gme9jqtlczwlr3725xwc09s63ksnqll7re7f'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1954677349000000000000000000'
+    shares: '1962563806000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1954677349' },
-  balanceOsmo: { denom: 'uosmo', amount: '1954677349' },
+  balance: { denom: 'uosmo', amount: '1962563806' },
+  balanceOsmo: { denom: 'uosmo', amount: '1962563806' },
   pubkey: 'Avlkr8iQBHEiW+Hsv1Z+0L/yLI3UdmjDbmqXqD/MVzIW',
-  osmoAddr: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t'
+  osmoAddr: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t',
+  starsAddr: 'stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1edqav26hnv50spemlv54hmv6c6j9sqfsl5dn28',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1945550840000000000000000000'
+    shares: '1953400475000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1945550840' },
-  balanceOsmo: { denom: 'uosmo', amount: '1945550840' },
+  balance: { denom: 'uosmo', amount: '1953400475' },
+  balanceOsmo: { denom: 'uosmo', amount: '1953400475' },
   pubkey: 'A2vgGFvS6KNBKHIGXrMSZENkJYk6b7MeQ5OwdBzeAWpZ',
-  osmoAddr: 'osmo1edqav26hnv50spemlv54hmv6c6j9sqfsl5dn28'
+  osmoAddr: 'osmo1edqav26hnv50spemlv54hmv6c6j9sqfsl5dn28',
+  starsAddr: 'stars1edqav26hnv50spemlv54hmv6c6j9sqfsrnf7hy'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1g0zkf489f9urfndz72n77yhuxw5h926q208mf4',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1901988938000000000000000000'
+    shares: '1909662813000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1901988938' },
-  balanceOsmo: { denom: 'uosmo', amount: '1901988938' },
+  balance: { denom: 'uosmo', amount: '1909662813' },
+  balanceOsmo: { denom: 'uosmo', amount: '1909662813' },
   pubkey: 'Anbu7BvfUPTqYfX0VLlcQrVospKgxU9mSPHYMUxBp2BD',
-  osmoAddr: 'osmo1g0zkf489f9urfndz72n77yhuxw5h926q208mf4'
+  osmoAddr: 'osmo1g0zkf489f9urfndz72n77yhuxw5h926q208mf4',
+  starsAddr: 'stars1g0zkf489f9urfndz72n77yhuxw5h926qkgrk5k'
 }
 {
   delegation: {
     delegatorAddress: 'osmo15htymnke3pm0s4m4txn4ef3jaj6k7736myju4e',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1753432881000000000000000000'
+    shares: '1769553324000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1753432881' },
-  balanceOsmo: { denom: 'uosmo', amount: '1753432881' },
+  balance: { denom: 'uosmo', amount: '1769553324' },
+  balanceOsmo: { denom: 'uosmo', amount: '1769553324' },
   pubkey: 'AkSb/XchwHxwXRceegyTx6jgFWWwFcs4TT+ZDdjk+/3W',
-  osmoAddr: 'osmo15htymnke3pm0s4m4txn4ef3jaj6k7736myju4e'
+  osmoAddr: 'osmo15htymnke3pm0s4m4txn4ef3jaj6k7736myju4e',
+  starsAddr: 'stars15htymnke3pm0s4m4txn4ef3jaj6k77368rk3g6'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1686358735000000000000000000'
+    shares: '1693162618000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1686358735' },
-  balanceOsmo: { denom: 'uosmo', amount: '1686358735' },
+  balance: { denom: 'uosmo', amount: '1693162618' },
+  balanceOsmo: { denom: 'uosmo', amount: '1693162618' },
   pubkey: 'A16flIhtoocbScJuatuKKKbCxXiyo11ofzae3oDMOwak',
-  osmoAddr: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j'
+  osmoAddr: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j',
+  starsAddr: 'stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3'
 }
 {
   delegation: {
@@ -566,62 +646,68 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '1669180032' },
   balanceOsmo: { denom: 'uosmo', amount: '1669180032' },
   pubkey: 'AjkQOlzTWSleRT8q3LL3V9VlZFhBVGeQnKqLp32jjFEL',
-  osmoAddr: 'osmo15rce70qlpcztvvekjwpv4fx3s5k2ujje92lewt'
+  osmoAddr: 'osmo15rce70qlpcztvvekjwpv4fx3s5k2ujje92lewt',
+  starsAddr: 'stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1425531338000000000000000000'
+    shares: '1431282870000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1425531338' },
-  balanceOsmo: { denom: 'uosmo', amount: '1425531338' },
+  balance: { denom: 'uosmo', amount: '1431282870' },
+  balanceOsmo: { denom: 'uosmo', amount: '1431282870' },
   pubkey: 'Awi9uA+RlB3yz7osiwU0bAFerDndVbLMC/KHY29k28yT',
-  osmoAddr: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz'
+  osmoAddr: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz',
+  starsAddr: 'stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1pmj2mtg03k4klkxkr49c3ukfhreygwj50j7xr8',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1322728926000000000000000000'
+    shares: '1328065686000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1322728926' },
-  balanceOsmo: { denom: 'uosmo', amount: '1322728926' },
+  balance: { denom: 'uosmo', amount: '1328065686' },
+  balanceOsmo: { denom: 'uosmo', amount: '1328065686' },
   pubkey: 'Ar1pGC6ZAi9Kc8pUzp72e+KF1enwJ4qvB2O78v34iWUO',
-  osmoAddr: 'osmo1pmj2mtg03k4klkxkr49c3ukfhreygwj50j7xr8'
+  osmoAddr: 'osmo1pmj2mtg03k4klkxkr49c3ukfhreygwj50j7xr8',
+  starsAddr: 'stars1pmj2mtg03k4klkxkr49c3ukfhreygwj5n46t7y'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1224757263000000000000000000'
+    shares: '1229698740000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1224757263' },
-  balanceOsmo: { denom: 'uosmo', amount: '1224757263' },
+  balance: { denom: 'uosmo', amount: '1229698740' },
+  balanceOsmo: { denom: 'uosmo', amount: '1229698740' },
   pubkey: 'A0nfitHMfdHeEjjlb/ctFRdW49bHA/MwpYntK0z5uItL',
-  osmoAddr: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4'
+  osmoAddr: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4',
+  starsAddr: 'stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1120218091000000000000000000'
+    shares: '1124084348000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1120218091' },
-  balanceOsmo: { denom: 'uosmo', amount: '1120218091' },
+  balance: { denom: 'uosmo', amount: '1124084348' },
+  balanceOsmo: { denom: 'uosmo', amount: '1124084348' },
   pubkey: 'A3HgpeYyWOZn79aOSnPeYTQuFU3HCs3SbPpDtwPVZxDF',
-  osmoAddr: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz'
+  osmoAddr: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz',
+  starsAddr: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '1017902358000000000000000000'
+    shares: '1022008630000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '1017902358' },
-  balanceOsmo: { denom: 'uosmo', amount: '1017902358' },
+  balance: { denom: 'uosmo', amount: '1022008630' },
+  balanceOsmo: { denom: 'uosmo', amount: '1022008630' },
   pubkey: 'A9GU0WBDENanI5/LI+tDcYlM+QmVquatadbuiWiuJkE6',
-  osmoAddr: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq'
+  osmoAddr: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq',
+  starsAddr: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er'
 }
 {
   delegation: {
@@ -632,7 +718,8 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '1004719399' },
   balanceOsmo: { denom: 'uosmo', amount: '1004719399' },
   pubkey: 'AkszKvMD9pmNSF3fVJ6caBQ8GPMNC6ivCcclVzwwS4Zd',
-  osmoAddr: 'osmo1plqn3j5272katu9leffl8ysc8kgparcrgap89v'
+  osmoAddr: 'osmo1plqn3j5272katu9leffl8ysc8kgparcrgap89v',
+  starsAddr: 'stars1plqn3j5272katu9leffl8ysc8kgparcr5692c0'
 }
 {
   delegation: {
@@ -643,40 +730,67 @@ no pubkey for osmo16tm9352wzrdjxgvpw04ex8el20det6yud2qhv9
   balance: { denom: 'uosmo', amount: '1000000000' },
   balanceOsmo: { denom: 'uosmo', amount: '1000000000' },
   pubkey: 'Atl20nt50ekvIfvlcJ8eXXJRgRO2r2FjyLP3rBKoCDk5',
-  osmoAddr: 'osmo12kct4cfuwh7vevec7c4y9slmee949qrjanfah9'
+  osmoAddr: 'osmo12kct4cfuwh7vevec7c4y9slmee949qrjanfah9',
+  starsAddr: 'stars12kct4cfuwh7vevec7c4y9slmee949qrjp5ds2x'
+}
+{
+  delegation: {
+    delegatorAddress: 'osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0',
+    validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+    shares: '868646353000000000000000000'
+  },
+  balance: { denom: 'uosmo', amount: '868646353' },
+  balanceOsmo: { denom: 'uosmo', amount: '868646353' },
+  pubkey: 'AwMjdok+XNfiudHM5NWTc7mybO607yqa7xtvJspxAntt',
+  osmoAddr: 'osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0',
+  starsAddr: 'stars1tk062ueryn03wecn84k7wssmx7xmxt26s4wd2v'
 }
 {
   delegation: {
     delegatorAddress: 'osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja',
     validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-    shares: '804860658000000000000000000'
+    shares: '808107996000000000000000000'
   },
-  balance: { denom: 'uosmo', amount: '804860658' },
-  balanceOsmo: { denom: 'uosmo', amount: '804860658' },
+  balance: { denom: 'uosmo', amount: '808107996' },
+  balanceOsmo: { denom: 'uosmo', amount: '808107996' },
   pubkey: 'A1P/SrDXp7GJN7dEFB0GQWm82q5kQfb4bb7eTO22HNXw',
-  osmoAddr: 'osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja'
+  osmoAddr: 'osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja',
+  starsAddr: 'stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607'
+}
+{
+  delegation: {
+    delegatorAddress: 'osmo1zkgd39ejlx543evahr32mywm2jk84vkw0anvwr',
+    validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+    shares: '663774754000000000000000000'
+  },
+  balance: { denom: 'uosmo', amount: '663774754' },
+  balanceOsmo: { denom: 'uosmo', amount: '663774754' },
+  pubkey: 'Aoe6f4ytUYrVyVza+d+iCBLlXbiy5Ryh8v422KUr2rID',
+  osmoAddr: 'osmo1zkgd39ejlx543evahr32mywm2jk84vkw0anvwr',
+  starsAddr: 'stars1zkgd39ejlx543evahr32mywm2jk84vkwn6hpnq'
 }
 ----------- osmosis END -----------
 ----------- stargaze START -----------
-48
+54
 Uint8Array(0) []
 try add pubkey for stars17vz8hvg96lddwawdfygvu89ua4v7qgd6aklg78
 try add pubkey for stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a
 try add pubkey for stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t
 try add pubkey for stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25
+try add pubkey for stars1489a36405052np9vgf4ajzam4taphu39lhtx33
 try add pubkey for stars1x0l6m4pz9svwuk3g2syqpf47p909thrxxglk7u
-try add pubkey for stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng
+try add pubkey for stars17cuqwvtjpkdlxl2hcp2zj7yr6e9ctsnzda64mr
 try add pubkey for stars1rqeychen93f9j72r7jue56g2gvaaqtjl7ule7u09f3ytxtlxhe8s3zhd98
+try add pubkey for stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng
 try add pubkey for stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3
 try add pubkey for stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk
-try add pubkey for stars1wqx8gt8tsn05eanmwfl6qjr4np2mgeyhq4tglx
 try add pubkey for stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep
 try add pubkey for stars1j7gme9jqtlczwlr3725xwc09s63ksnqll7re7f
-try add pubkey for stars1489a36405052np9vgf4ajzam4taphu39lhtx33
 try add pubkey for stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er
 try add pubkey for stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p
 try add pubkey for stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve
 try add pubkey for stars1502yj0d8wac7w5pe4ve36ra4pfsd24txc3gk2a
+try add pubkey for stars19805jasn76n48e48xrm0tt695c3wkrs8fj6lng
 try add pubkey for stars10estj489m8plmn6j84hj04ww693hcrqdh4s3g3
 try add pubkey for stars12kct4cfuwh7vevec7c4y9slmee949qrjp5ds2x
 try add pubkey for stars1rph5tumanl5ndpj0sga7sy39kkjr0ghny3wmjf
@@ -686,17 +800,21 @@ try add pubkey for stars1gj0klcaulj4u9e780qh92uagjmjp3qf6vw0zhk
 try add pubkey for stars1e533m29emngs7camh5rjzpxkr0ngyuek6er0je
 try add pubkey for stars1c2sxs95sn4fszap4874qcuwvewjxs4gfjurzuq
 try add pubkey for stars104xuzvkx2gvk8r0asvah0uxy6r33hjlva33s3s
+try add pubkey for stars1yvc4lysvy6s7xmv0krydv0ve8ae5up0266wmkg
 try add pubkey for stars1n3f9rc5hkxp3xnat5kv8jsqctfgqd4g4sw8fzz
 try add pubkey for stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg
 try add pubkey for stars1va3nl4wup8zexwysug2pkuu4htgcn78qlpj79x
 try add pubkey for stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607
 try add pubkey for stars1js2uerg8v3y6k7pd45kd05zcn0srh2r25g5ztj
 try add pubkey for stars1qcf56hq8x4dwa380tk0hfmmfdswhucer6xdsp0
+try add pubkey for stars17d5d4qf56ak2dfn4cjgc2qdqrvh76ha03ww5k7
 try add pubkey for stars1kv87grvk20xj7l7n4wgtrfwead0c3r3qmmmjx0
 try add pubkey for stars1krs9xakfe9fyrgpzn0vlu85n6z4vkvslxza85z
 try add pubkey for stars120tsv7fww4uedse4zutac5dll5uv9qklyr3mrt
 try add pubkey for stars15k74xm8rwflttr8krczhana9nqc9nvhthtwu86
+try add pubkey for stars1jpvxqtd5uq5q4nljgu0zr0d25u6605gqxc2e3t
 try add pubkey for stars1gjzs0qd88puzl3w875tetg82ryh2geg0dp7y7l
+try add pubkey for stars15gtj2a4uplzv0k77shygv278ex8wrafr9j3ygy
 try add pubkey for stars19a0flgcxf4fx4jww0uszxjnk8vxacac0fh9e0n
 try add pubkey for stars10egt9ncjav6fe9l5zay8z6drnshepxql72jsag
 try add pubkey for stars1kyqgy8eax7ms07f83edvstnjyc7976uc8xupc8
@@ -708,6 +826,7 @@ try add pubkey for stars1gv3arzxt88jeyy2flaxyrwrg0u8wymfqvhf984
 try add pubkey for stars1kekv8xqg7aj628l8av4d95cm79y8lw3c5lr28x
 try add pubkey for stars1ctfwwaxgwu4u45wvzxe5cky2zw8k9t6qhzs62s
 try add pubkey for stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9zjm
+try add pubkey for stars16v96erpfa34fnaexzga6hqs83v06yhpew0r3d7
 error with address stars1rqeychen93f9j72r7jue56g2gvaaqtjl7ule7u09f3ytxtlxhe8s3zhd98
 error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9zjm
 {
@@ -717,31 +836,34 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '1268888000002000000000000000000'
   },
   balance: { denom: 'ustars', amount: '1268888000002' },
-  balanceOsmo: { denom: 'uosmo', amount: '30072645600.047398' },
+  balanceOsmo: { denom: 'uosmo', amount: '27661758400.0436' },
   pubkey: 'Aqa8OwzeG1gQjMRMTwG+ROVlA1w9wMK2C8x+QlrLwSgl',
-  osmoAddr: 'osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry'
+  osmoAddr: 'osmo17vz8hvg96lddwawdfygvu89ua4v7qgd6p3m9ry',
+  starsAddr: 'stars17vz8hvg96lddwawdfygvu89ua4v7qgd6aklg78'
 }
 {
   delegation: {
     delegatorAddress: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '506586620138000000000000000000'
+    shares: '509790120138000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '506586620138' },
-  balanceOsmo: { denom: 'uosmo', amount: '12006102897.2706' },
+  balance: { denom: 'ustars', amount: '509790120138' },
+  balanceOsmo: { denom: 'uosmo', amount: '11113424619.0084' },
   pubkey: 'Ay1WoY2Bchr2CdGV9sSjp17mngbd2/JpevPXllSODk5k',
-  osmoAddr: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7'
+  osmoAddr: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7',
+  starsAddr: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a'
 }
 {
   delegation: {
     delegatorAddress: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '438163562274000000000000000000'
+    shares: '440739562701000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '438163562274' },
-  balanceOsmo: { denom: 'uosmo', amount: '10384476425.893799' },
+  balance: { denom: 'ustars', amount: '440739562701' },
+  balanceOsmo: { denom: 'uosmo', amount: '9608122466.8818' },
   pubkey: 'AlowMB3adYjBKSb8vxhzrH6irfwj4HVtbuKH5Ff+PVVl',
-  osmoAddr: 'osmo1f4n4a3xyun8ntgk9skh50t2l884vfyej0hef6g'
+  osmoAddr: 'osmo1f4n4a3xyun8ntgk9skh50t2l884vfyej0hef6g',
+  starsAddr: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t'
 }
 {
   delegation: {
@@ -750,9 +872,22 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '59407000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '59407000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '1407945900' },
+  balanceOsmo: { denom: 'uosmo', amount: '1295072600' },
   pubkey: 'A6i3dzqGtN5IkqiYUnOe9qQhcQ5EYo1pv8qmtqfazDn4',
-  osmoAddr: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh'
+  osmoAddr: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh',
+  starsAddr: 'stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25'
+}
+{
+  delegation: {
+    delegatorAddress: 'stars1489a36405052np9vgf4ajzam4taphu39lhtx33',
+    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+    shares: '40425524355000000000000000000'
+  },
+  balance: { denom: 'ustars', amount: '40425524355' },
+  balanceOsmo: { denom: 'uosmo', amount: '881276430.939' },
+  pubkey: 'A3j05JPJ8MpDwn+syVip350LErYTxL9HYn1JF7w4OAzc',
+  osmoAddr: 'osmo1489a36405052np9vgf4ajzam4taphu39rs0tvj',
+  starsAddr: 'stars1489a36405052np9vgf4ajzam4taphu39lhtx33'
 }
 {
   delegation: {
@@ -761,9 +896,31 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '40000000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '40000000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '948000000' },
+  balanceOsmo: { denom: 'uosmo', amount: '872000000' },
   pubkey: 'A9z85dl5d595kVSXmeAjF5s+Rf2iMBs+PQAk2t9gavmA',
-  osmoAddr: 'osmo1x0l6m4pz9svwuk3g2syqpf47p909thrx60mmrl'
+  osmoAddr: 'osmo1x0l6m4pz9svwuk3g2syqpf47p909thrx60mmrl',
+  starsAddr: 'stars1x0l6m4pz9svwuk3g2syqpf47p909thrxxglk7u'
+}
+{
+  delegation: {
+    delegatorAddress: 'stars17cuqwvtjpkdlxl2hcp2zj7yr6e9ctsnzda64mr',
+    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+    shares: '34303457900000000000000000000'
+  },
+  balance: { denom: 'ustars', amount: '34303457900' },
+  balanceOsmo: { denom: 'uosmo', amount: '747815382.22' },
+  pubkey: 'A9w4LrM+X3uYKuYtz/x5LtzHFBlUkXJ+++9TgOiAUnCG',
+  osmoAddr: 'osmo17cuqwvtjpkdlxl2hcp2zj7yr6e9ctsnz367cxq',
+  starsAddr: 'stars17cuqwvtjpkdlxl2hcp2zj7yr6e9ctsnzda64mr'
+}
+{
+  delegation: {
+    delegatorAddress: 'stars1rqeychen93f9j72r7jue56g2gvaaqtjl7ule7u09f3ytxtlxhe8s3zhd98',
+    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+    shares: '32833944702000000000000000000'
+  },
+  balance: { denom: 'ustars', amount: '32833944702' },
+  balanceOsmo: { denom: 'uosmo', amount: '715779994.5036' }
 }
 {
   delegation: {
@@ -772,18 +929,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '30000000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '30000000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '711000000' },
+  balanceOsmo: { denom: 'uosmo', amount: '654000000' },
   pubkey: 'AjkQOlzTWSleRT8q3LL3V9VlZFhBVGeQnKqLp32jjFEL',
-  osmoAddr: 'osmo15rce70qlpcztvvekjwpv4fx3s5k2ujje92lewt'
-}
-{
-  delegation: {
-    delegatorAddress: 'stars1rqeychen93f9j72r7jue56g2gvaaqtjl7ule7u09f3ytxtlxhe8s3zhd98',
-    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '28506187195000000000000000000'
-  },
-  balance: { denom: 'ustars', amount: '28506187195' },
-  balanceOsmo: { denom: 'uosmo', amount: '675596636.5215' }
+  osmoAddr: 'osmo15rce70qlpcztvvekjwpv4fx3s5k2ujje92lewt',
+  starsAddr: 'stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng'
 }
 {
   delegation: {
@@ -792,9 +941,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '15446000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '15446000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '366070200' },
+  balanceOsmo: { denom: 'uosmo', amount: '336722800' },
   pubkey: 'A16flIhtoocbScJuatuKKKbCxXiyo11ofzae3oDMOwak',
-  osmoAddr: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j'
+  osmoAddr: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j',
+  starsAddr: 'stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3'
 }
 {
   delegation: {
@@ -803,20 +953,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '12406600000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '12406600000' },
-  balanceOsmo: { denom: 'uosmo', amount: '294036420' },
+  balanceOsmo: { denom: 'uosmo', amount: '270463880' },
   pubkey: 'A0nfitHMfdHeEjjlb/ctFRdW49bHA/MwpYntK0z5uItL',
-  osmoAddr: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4'
-}
-{
-  delegation: {
-    delegatorAddress: 'stars1wqx8gt8tsn05eanmwfl6qjr4np2mgeyhq4tglx',
-    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '12373714695000000000000000000'
-  },
-  balance: { denom: 'ustars', amount: '12373714695' },
-  balanceOsmo: { denom: 'uosmo', amount: '293257038.2715' },
-  pubkey: 'AgIKyelgM09MWGtA1bxHTPd3Lk1FreEmflBHNks+uNvz',
-  osmoAddr: 'osmo1wqx8gt8tsn05eanmwfl6qjr4np2mgeyhuj09z9'
+  osmoAddr: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4',
+  starsAddr: 'stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk'
 }
 {
   delegation: {
@@ -825,9 +965,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '10013500000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '10013500000' },
-  balanceOsmo: { denom: 'uosmo', amount: '237319950' },
+  balanceOsmo: { denom: 'uosmo', amount: '218294300' },
   pubkey: 'Awi9uA+RlB3yz7osiwU0bAFerDndVbLMC/KHY29k28yT',
-  osmoAddr: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz'
+  osmoAddr: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz',
+  starsAddr: 'stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep'
 }
 {
   delegation: {
@@ -836,42 +977,34 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '9998999999000000000000000000'
   },
   balance: { denom: 'ustars', amount: '9998999999' },
-  balanceOsmo: { denom: 'uosmo', amount: '236976299.9763' },
+  balanceOsmo: { denom: 'uosmo', amount: '217978199.9782' },
   pubkey: 'AtuLYlPbqLDDNECq+DR+7OuS1s05Zzw1EnFq35ckq4F4',
-  osmoAddr: 'osmo1j7gme9jqtlczwlr3725xwc09s63ksnqlre85r2'
-}
-{
-  delegation: {
-    delegatorAddress: 'stars1489a36405052np9vgf4ajzam4taphu39lhtx33',
-    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '7320609409000000000000000000'
-  },
-  balance: { denom: 'ustars', amount: '7320609409' },
-  balanceOsmo: { denom: 'uosmo', amount: '173498442.9933' },
-  pubkey: 'A3j05JPJ8MpDwn+syVip350LErYTxL9HYn1JF7w4OAzc',
-  osmoAddr: 'osmo1489a36405052np9vgf4ajzam4taphu39rs0tvj'
+  osmoAddr: 'osmo1j7gme9jqtlczwlr3725xwc09s63ksnqlre85r2',
+  starsAddr: 'stars1j7gme9jqtlczwlr3725xwc09s63ksnqll7re7f'
 }
 {
   delegation: {
     delegatorAddress: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '7022864881000000000000000000'
+    shares: '7064152893000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '7022864881' },
-  balanceOsmo: { denom: 'uosmo', amount: '166441897.6797' },
+  balance: { denom: 'ustars', amount: '7064152893' },
+  balanceOsmo: { denom: 'uosmo', amount: '153998533.0674' },
   pubkey: 'A9GU0WBDENanI5/LI+tDcYlM+QmVquatadbuiWiuJkE6',
-  osmoAddr: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq'
+  osmoAddr: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq',
+  starsAddr: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er'
 }
 {
   delegation: {
     delegatorAddress: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '6059936312000000000000000000'
+    shares: '6073397730000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '6059936312' },
-  balanceOsmo: { denom: 'uosmo', amount: '143620490.5944' },
+  balance: { denom: 'ustars', amount: '6073397730' },
+  balanceOsmo: { denom: 'uosmo', amount: '132400070.514' },
   pubkey: 'A3HgpeYyWOZn79aOSnPeYTQuFU3HCs3SbPpDtwPVZxDF',
-  osmoAddr: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz'
+  osmoAddr: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz',
+  starsAddr: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p'
 }
 {
   delegation: {
@@ -880,9 +1013,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '5765300000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '5765300000' },
-  balanceOsmo: { denom: 'uosmo', amount: '136637610' },
+  balanceOsmo: { denom: 'uosmo', amount: '125683540' },
   pubkey: 'AgV18xQN4thYJhL2bROAeFUBz+GnyLxP05d33i9cWKyh',
-  osmoAddr: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36'
+  osmoAddr: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36',
+  starsAddr: 'stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve'
 }
 {
   delegation: {
@@ -891,9 +1025,22 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '5600000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '5600000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '132720000' },
+  balanceOsmo: { denom: 'uosmo', amount: '122080000' },
   pubkey: 'Ap9bA5u6Fvghzfud3RMpKNStzy3MprTcRlawzjCdaHBJ',
-  osmoAddr: 'osmo1502yj0d8wac7w5pe4ve36ra4pfsd24txykvmh7'
+  osmoAddr: 'osmo1502yj0d8wac7w5pe4ve36ra4pfsd24txykvmh7',
+  starsAddr: 'stars1502yj0d8wac7w5pe4ve36ra4pfsd24txc3gk2a'
+}
+{
+  delegation: {
+    delegatorAddress: 'stars19805jasn76n48e48xrm0tt695c3wkrs8fj6lng',
+    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+    shares: '5000000000000000000000000000'
+  },
+  balance: { denom: 'ustars', amount: '5000000000' },
+  balanceOsmo: { denom: 'uosmo', amount: '109000000' },
+  pubkey: 'A0DiJx9X6U86VMxrVerWt5A26K41S9fSo4prWbenNehC',
+  osmoAddr: 'osmo19805jasn76n48e48xrm0tt695c3wkrs8447jwt',
+  starsAddr: 'stars19805jasn76n48e48xrm0tt695c3wkrs8fj6lng'
 }
 {
   delegation: {
@@ -902,9 +1049,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '4159000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '4159000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '98568300' },
+  balanceOsmo: { denom: 'uosmo', amount: '90666200' },
   pubkey: 'Ayo/h25kXNsPDzjEGtvCodg1XMWJ5nteHF4KTAl8ZH0H',
-  osmoAddr: 'osmo10estj489m8plmn6j84hj04ww693hcrqdtj5u4j'
+  osmoAddr: 'osmo10estj489m8plmn6j84hj04ww693hcrqdtj5u4j',
+  starsAddr: 'stars10estj489m8plmn6j84hj04ww693hcrqdh4s3g3'
 }
 {
   delegation: {
@@ -913,9 +1061,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '4000000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '4000000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '94800000' },
+  balanceOsmo: { denom: 'uosmo', amount: '87200000' },
   pubkey: 'Atl20nt50ekvIfvlcJ8eXXJRgRO2r2FjyLP3rBKoCDk5',
-  osmoAddr: 'osmo12kct4cfuwh7vevec7c4y9slmee949qrjanfah9'
+  osmoAddr: 'osmo12kct4cfuwh7vevec7c4y9slmee949qrjanfah9',
+  starsAddr: 'stars12kct4cfuwh7vevec7c4y9slmee949qrjp5ds2x'
 }
 {
   delegation: {
@@ -924,9 +1073,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '3887999999000000000000000000'
   },
   balance: { denom: 'ustars', amount: '3887999999' },
-  balanceOsmo: { denom: 'uosmo', amount: '92145599.9763' },
+  balanceOsmo: { denom: 'uosmo', amount: '84758399.9782' },
   pubkey: 'A9Fm1+ZTlFnsQ5y9lOHhzrScaZLFzRhsgXokbflcMQNi',
-  osmoAddr: 'osmo1rph5tumanl5ndpj0sga7sy39kkjr0ghnck2k02'
+  osmoAddr: 'osmo1rph5tumanl5ndpj0sga7sy39kkjr0ghnck2k02',
+  starsAddr: 'stars1rph5tumanl5ndpj0sga7sy39kkjr0ghny3wmjf'
 }
 {
   delegation: {
@@ -935,9 +1085,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '3136000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '3136000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '74323200' },
+  balanceOsmo: { denom: 'uosmo', amount: '68364800' },
   pubkey: 'AwMjdok+XNfiudHM5NWTc7mybO607yqa7xtvJspxAntt',
-  osmoAddr: 'osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0'
+  osmoAddr: 'osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0',
+  starsAddr: 'stars1tk062ueryn03wecn84k7wssmx7xmxt26s4wd2v'
 }
 {
   delegation: {
@@ -946,9 +1097,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '2999999999000000000000000000'
   },
   balance: { denom: 'ustars', amount: '2999999999' },
-  balanceOsmo: { denom: 'uosmo', amount: '71099999.9763' },
+  balanceOsmo: { denom: 'uosmo', amount: '65399999.9782' },
   pubkey: 'A8F8oNmbbhKkI2poziQLCXe4lnEgUIf1QRkkqGwLBXmS',
-  osmoAddr: 'osmo1a9zmhn5ycxtz6h0x3f50cy2tdcve335dnk0xk2'
+  osmoAddr: 'osmo1a9zmhn5ycxtz6h0x3f50cy2tdcve335dnk0xk2',
+  starsAddr: 'stars1a9zmhn5ycxtz6h0x3f50cy2tdcve335d03tttf'
 }
 {
   delegation: {
@@ -957,20 +1109,22 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '2332000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '2332000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '55268400' },
+  balanceOsmo: { denom: 'uosmo', amount: '50837600' },
   pubkey: 'Av23byjLtd45I36iRAkfnv8aOSjA78xGvdnMW2MjzsKc',
-  osmoAddr: 'osmo1gj0klcaulj4u9e780qh92uagjmjp3qf6sft024'
+  osmoAddr: 'osmo1gj0klcaulj4u9e780qh92uagjmjp3qf6sft024',
+  starsAddr: 'stars1gj0klcaulj4u9e780qh92uagjmjp3qf6vw0zhk'
 }
 {
   delegation: {
     delegatorAddress: 'stars1e533m29emngs7camh5rjzpxkr0ngyuek6er0je',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '2268725149000000000000000000'
+    shares: '2283950681000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '2268725149' },
-  balanceOsmo: { denom: 'uosmo', amount: '53768786.0313' },
+  balance: { denom: 'ustars', amount: '2283950681' },
+  balanceOsmo: { denom: 'uosmo', amount: '49790124.8458' },
   pubkey: 'A8oKAIv2K3TqT3f10iPLFWk3oWhwXpSnwBSdkNWqD30D',
-  osmoAddr: 'osmo1e533m29emngs7camh5rjzpxkr0ngyuekx78z06'
+  osmoAddr: 'osmo1e533m29emngs7camh5rjzpxkr0ngyuekx78z06',
+  starsAddr: 'stars1e533m29emngs7camh5rjzpxkr0ngyuek6er0je'
 }
 {
   delegation: {
@@ -979,20 +1133,34 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '1900000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '1900000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '45030000' },
+  balanceOsmo: { denom: 'uosmo', amount: '41420000' },
   pubkey: 'A3mVCGSRBx3oAlfw7dZrY/ms94HeXzvpqQKCG5kI5dYw',
-  osmoAddr: 'osmo1c2sxs95sn4fszap4874qcuwvewjxs4gfwm80pr'
+  osmoAddr: 'osmo1c2sxs95sn4fszap4874qcuwvewjxs4gfwm80pr',
+  starsAddr: 'stars1c2sxs95sn4fszap4874qcuwvewjxs4gfjurzuq'
 }
 {
   delegation: {
     delegatorAddress: 'stars104xuzvkx2gvk8r0asvah0uxy6r33hjlva33s3s',
     validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '1822005927000000000000000000'
+    shares: '1856892291000000000000000000'
   },
-  balance: { denom: 'ustars', amount: '1822005927' },
-  balanceOsmo: { denom: 'uosmo', amount: '43181540.4699' },
+  balance: { denom: 'ustars', amount: '1856892291' },
+  balanceOsmo: { denom: 'uosmo', amount: '40480251.9438' },
   pubkey: 'AwuQ9nLjlPEiK/A+94S1nl1I146Ol5t4JkMW/cuE+tfC',
-  osmoAddr: 'osmo104xuzvkx2gvk8r0asvah0uxy6r33hjlvpk4avn'
+  osmoAddr: 'osmo104xuzvkx2gvk8r0asvah0uxy6r33hjlvpk4avn',
+  starsAddr: 'stars104xuzvkx2gvk8r0asvah0uxy6r33hjlva33s3s'
+}
+{
+  delegation: {
+    delegatorAddress: 'stars1yvc4lysvy6s7xmv0krydv0ve8ae5up0266wmkg',
+    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+    shares: '1810000000000000000000000000'
+  },
+  balance: { denom: 'ustars', amount: '1810000000' },
+  balanceOsmo: { denom: 'uosmo', amount: '39458000' },
+  pubkey: 'AuEnBd+3TZ4XKwtdNalISOdd9VoTNulYgaeiz2O47xh+',
+  osmoAddr: 'osmo1yvc4lysvy6s7xmv0krydv0ve8ae5up02xa2ktt',
+  starsAddr: 'stars1yvc4lysvy6s7xmv0krydv0ve8ae5up0266wmkg'
 }
 {
   delegation: {
@@ -1001,9 +1169,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '1405314411000000000000000000'
   },
   balance: { denom: 'ustars', amount: '1405314411' },
-  balanceOsmo: { denom: 'uosmo', amount: '33305951.5407' },
+  balanceOsmo: { denom: 'uosmo', amount: '30635854.1598' },
   pubkey: 'AlnevFW4OX41nBAxN7OWW39mepJwfNEEB/HKztFwCzkx',
-  osmoAddr: 'osmo1n3f9rc5hkxp3xnat5kv8jsqctfgqd4g4vfrylp'
+  osmoAddr: 'osmo1n3f9rc5hkxp3xnat5kv8jsqctfgqd4g4vfrylp',
+  starsAddr: 'stars1n3f9rc5hkxp3xnat5kv8jsqctfgqd4g4sw8fzz'
 }
 {
   delegation: {
@@ -1012,31 +1181,10 @@ error with address stars1rqd5082y3lxlx04g77s5m8v7f4hq33zcjsgvk6lcadk289xn9grqvn9
     shares: '1333000000000000000000000000'
   },
   balance: { denom: 'ustars', amount: '1333000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '31592100' },
+  balanceOsmo: { denom: 'uosmo', amount: '29059400' },
   pubkey: 'Avlkr8iQBHEiW+Hsv1Z+0L/yLI3UdmjDbmqXqD/MVzIW',
-  osmoAddr: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t'
-}
-{
-  delegation: {
-    delegatorAddress: 'stars1va3nl4wup8zexwysug2pkuu4htgcn78qlpj79x',
-    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '1001000000000000000000000000'
-  },
-  balance: { denom: 'ustars', amount: '1001000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '23723700' },
-  pubkey: 'AnR89LIW337xxfPJd7n6aAdLZebjwX34ps5eLnF1tRVv',
-  osmoAddr: 'osmo1va3nl4wup8zexwysug2pkuu4htgcn78qrxknc9'
-}
-{
-  delegation: {
-    delegatorAddress: 'stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607',
-    validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-    shares: '1000000000000000000000000000'
-  },
-  balance: { denom: 'ustars', amount: '1000000000' },
-  balanceOsmo: { denom: 'uosmo', amount: '23700000' },
-  pubkey: 'A1P/SrDXp7GJN7dEFB0GQWm82q5kQfb4bb7eTO22HNXw',
-  osmoAddr: 'osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja'
+  osmoAddr: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t',
+  starsAddr: 'stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg'
 }
 ----------- stargaze END -----------
 ----------- FINAL SORT BY OSMO BALANCE and pubkey START -----------
@@ -1059,8 +1207,9 @@ NUMBER : [1]
     { denom: 'uosmo', amount: '88888000000' },
     { denom: 'ustars', amount: '1268888000002' }
   ],
-  balanceOsmo: 118960645600.0474,
-  pubkey: 'Aqa8OwzeG1gQjMRMTwG+ROVlA1w9wMK2C8x+QlrLwSgl'
+  balanceOsmo: 116549758400.0436,
+  pubkey: 'Aqa8OwzeG1gQjMRMTwG+ROVlA1w9wMK2C8x+QlrLwSgl',
+  starsAddr: 'stars17vz8hvg96lddwawdfygvu89ua4v7qgd6aklg78'
 }
 -------------------------------
 -------------------------------
@@ -1070,20 +1219,21 @@ NUMBER : [2]
     {
       delegatorAddress: 'osmo1s43l7s99hx627scn2ldd3ey50qpj9frv073xj7',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '19029901918000000000000000000'
+      shares: '19106681100000000000000000000'
     },
     {
       delegatorAddress: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a',
       validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-      shares: '506586620138000000000000000000'
+      shares: '509790120138000000000000000000'
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '19029901918' },
-    { denom: 'ustars', amount: '506586620138' }
+    { denom: 'uosmo', amount: '19106681100' },
+    { denom: 'ustars', amount: '509790120138' }
   ],
-  balanceOsmo: 31036004815.2706,
-  pubkey: 'Ay1WoY2Bchr2CdGV9sSjp17mngbd2/JpevPXllSODk5k'
+  balanceOsmo: 30220105719.0084,
+  pubkey: 'Ay1WoY2Bchr2CdGV9sSjp17mngbd2/JpevPXllSODk5k',
+  starsAddr: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a'
 }
 -------------------------------
 -------------------------------
@@ -1098,15 +1248,16 @@ NUMBER : [3]
     {
       delegatorAddress: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t',
       validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-      shares: '438163562274000000000000000000'
+      shares: '440739562701000000000000000000'
     }
   ],
   balances: [
     { denom: 'uosmo', amount: '18888000000' },
-    { denom: 'ustars', amount: '438163562274' }
+    { denom: 'ustars', amount: '440739562701' }
   ],
-  balanceOsmo: 29272476425.8938,
-  pubkey: 'AlowMB3adYjBKSb8vxhzrH6irfwj4HVtbuKH5Ff+PVVl'
+  balanceOsmo: 28496122466.881798,
+  pubkey: 'AlowMB3adYjBKSb8vxhzrH6irfwj4HVtbuKH5Ff+PVVl',
+  starsAddr: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t'
 }
 -------------------------------
 -------------------------------
@@ -1114,14 +1265,15 @@ NUMBER : [4]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1jvpvt9n2g0m366j3hjte4xvctpej2dc9l7n38d',
+      delegatorAddress: 'osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '7690454737000000000000000000'
+      shares: '6422951940000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '7690454737' } ],
-  balanceOsmo: 7690454737,
-  pubkey: 'undefined'
+  balances: [ { denom: 'uosmo', amount: '6422951940' } ],
+  balanceOsmo: 6422951940,
+  pubkey: 'AlesqAzVv//2G3PA5AKs7cBuTZO+lqO3EdR0+fCX8skl',
+  starsAddr: 'stars1j65p8eyn5u08ets4eqksrj43hz7mjpv9mt5ypn'
 }
 -------------------------------
 -------------------------------
@@ -1129,14 +1281,15 @@ NUMBER : [5]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1j65p8eyn5u08ets4eqksrj43hz7mjpv98vsfus',
+      delegatorAddress: 'osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '6397141646000000000000000000'
+      shares: '5962028025000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '6397141646' } ],
-  balanceOsmo: 6397141646,
-  pubkey: 'AlesqAzVv//2G3PA5AKs7cBuTZO+lqO3EdR0+fCX8skl'
+  balances: [ { denom: 'uosmo', amount: '5962028025' } ],
+  balanceOsmo: 5962028025,
+  pubkey: 'Am5vywMsGsqkZeql+DiR4PbwbTIFVyoqWxdyNSvF3gFp',
+  starsAddr: 'stars14x7s5jcup6danjrhvxfajj62jfgnlsda66en5e'
 }
 -------------------------------
 -------------------------------
@@ -1144,14 +1297,15 @@ NUMBER : [6]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo14x7s5jcup6danjrhvxfajj62jfgnlsdaxaa7f6',
+      delegatorAddress: 'osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '5938069930000000000000000000'
+      shares: '5926468573000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '5938069930' } ],
-  balanceOsmo: 5938069930,
-  pubkey: 'Am5vywMsGsqkZeql+DiR4PbwbTIFVyoqWxdyNSvF3gFp'
+  balances: [ { denom: 'uosmo', amount: '5926468573' } ],
+  balanceOsmo: 5926468573,
+  pubkey: 'Ap7Olo7yOM0XyidtP4Dz54pSpcf5prTYfCWYna8rl5vl',
+  starsAddr: 'stars1tntlr6g3f5mzkguxl58v7y9z403x9fzlg36pfa'
 }
 -------------------------------
 -------------------------------
@@ -1159,24 +1313,9 @@ NUMBER : [7]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1tntlr6g3f5mzkguxl58v7y9z403x9fzl5k7v57',
-      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '5902653371000000000000000000'
-    }
-  ],
-  balances: [ { denom: 'uosmo', amount: '5902653371' } ],
-  balanceOsmo: 5902653371,
-  pubkey: 'Ap7Olo7yOM0XyidtP4Dz54pSpcf5prTYfCWYna8rl5vl'
-}
--------------------------------
--------------------------------
-NUMBER : [8]
-{
-  delegations: [
-    {
       delegatorAddress: 'osmo1axrtywdnv9h74hr207kg2e942tvk9c5mcrsy36',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '3960286962000000000000000000'
+      shares: '3976265374000000000000000000'
     },
     {
       delegatorAddress: 'stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve',
@@ -1185,11 +1324,28 @@ NUMBER : [8]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '3960286962' },
+    { denom: 'uosmo', amount: '3976265374' },
     { denom: 'ustars', amount: '5765300000' }
   ],
-  balanceOsmo: 4096924572,
-  pubkey: 'AgV18xQN4thYJhL2bROAeFUBz+GnyLxP05d33i9cWKyh'
+  balanceOsmo: 4101948914,
+  pubkey: 'AgV18xQN4thYJhL2bROAeFUBz+GnyLxP05d33i9cWKyh',
+  starsAddr: 'stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve'
+}
+-------------------------------
+-------------------------------
+NUMBER : [8]
+{
+  delegations: [
+    {
+      delegatorAddress: 'osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5',
+      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+      shares: '3729000705000000000000000000'
+    }
+  ],
+  balances: [ { denom: 'uosmo', amount: '3729000705' } ],
+  balanceOsmo: 3729000705,
+  pubkey: 'AyLKOSF+eJYeUcuFu2+eN757KAC2h00tYHydi2olGwQ8',
+  starsAddr: 'stars1xe99zszd0zqzxc75kvky0hxvvzgkj3lyp2z2yh'
 }
 -------------------------------
 -------------------------------
@@ -1197,14 +1353,15 @@ NUMBER : [9]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1xe99zszd0zqzxc75kvky0hxvvzgkj3lyadx8e5',
+      delegatorAddress: 'osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '3714015915000000000000000000'
+      shares: '2748387739000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '3714015915' } ],
-  balanceOsmo: 3714015915,
-  pubkey: 'AyLKOSF+eJYeUcuFu2+eN757KAC2h00tYHydi2olGwQ8'
+  balances: [ { denom: 'uosmo', amount: '2748387739' } ],
+  balanceOsmo: 2748387739,
+  pubkey: 'AjB9Y6TDEbrI78syv8/kqIUpBSo28cWLskTWZNv+aPjT',
+  starsAddr: 'stars10efrdu7x6d6hmy5srvgxk26lxm2875rfev3ng2'
 }
 -------------------------------
 -------------------------------
@@ -1212,14 +1369,15 @@ NUMBER : [10]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo15mnhu79vupl6kuwrt9mde2tznefgfcw6v76vj5',
+      delegatorAddress: 'osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '2854631012000000000000000000'
+      shares: '2656162558000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '2854631012' } ],
-  balanceOsmo: 2854631012,
-  pubkey: 'osmo15mnhu79vupl6kuwrt9mde2tznefgfcw6v76vj5'
+  balances: [ { denom: 'uosmo', amount: '2656162558' } ],
+  balanceOsmo: 2656162558,
+  pubkey: 'AqAOd6htrDqJ7F+Z3MFXrOwH/Meg7ATs1Bo1XUJm+28Q',
+  starsAddr: 'stars1ka8twg94gtqhmhw8x9z6xtnhfmejy2rwztq25w'
 }
 -------------------------------
 -------------------------------
@@ -1227,48 +1385,19 @@ NUMBER : [11]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo10efrdu7x6d6hmy5srvgxk26lxm2875rf9t474f',
+      delegatorAddress: 'osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '2737343493000000000000000000'
+      shares: '2374371522000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '2737343493' } ],
-  balanceOsmo: 2737343493,
-  pubkey: 'AjB9Y6TDEbrI78syv8/kqIUpBSo28cWLskTWZNv+aPjT'
+  balances: [ { denom: 'uosmo', amount: '2374371522' } ],
+  balanceOsmo: 2374371522,
+  pubkey: 'As8FjNaqi8/EW7ZWcsuXt+Y69jQy+5eNLwzhUxZH5KIP',
+  starsAddr: 'stars15ea5sfdcvyvta662xpsn2ugmxz234vrkj0z0w2'
 }
 -------------------------------
 -------------------------------
 NUMBER : [12]
-{
-  delegations: [
-    {
-      delegatorAddress: 'osmo1ka8twg94gtqhmhw8x9z6xtnhfmejy2rw7vy8fd',
-      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '2645488911000000000000000000'
-    }
-  ],
-  balances: [ { denom: 'uosmo', amount: '2645488911' } ],
-  balanceOsmo: 2645488911,
-  pubkey: 'AqAOd6htrDqJ7F+Z3MFXrOwH/Meg7ATs1Bo1XUJm+28Q'
-}
--------------------------------
--------------------------------
-NUMBER : [13]
-{
-  delegations: [
-    {
-      delegatorAddress: 'osmo15ea5sfdcvyvta662xpsn2ugmxz234vrkwgxznf',
-      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '2364830237000000000000000000'
-    }
-  ],
-  balances: [ { denom: 'uosmo', amount: '2364830237' } ],
-  balanceOsmo: 2364830237,
-  pubkey: 'As8FjNaqi8/EW7ZWcsuXt+Y69jQy+5eNLwzhUxZH5KIP'
-}
--------------------------------
--------------------------------
-NUMBER : [14]
 {
   delegations: [
     {
@@ -1279,17 +1408,18 @@ NUMBER : [14]
   ],
   balances: [ { denom: 'uosmo', amount: '2171164946' } ],
   balanceOsmo: 2171164946,
-  pubkey: 'AhXxF1EeSXvZfD1w9EpA/7qLwOo8H1c4MP0u/Sf7q3pI'
+  pubkey: 'AhXxF1EeSXvZfD1w9EpA/7qLwOo8H1c4MP0u/Sf7q3pI',
+  starsAddr: 'stars18x855kwcr4sxq3sc6gdq55arshylrfskv8efwn'
 }
 -------------------------------
 -------------------------------
-NUMBER : [15]
+NUMBER : [13]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1d0zydkzyw5jw0dwusp603uxpu75u4sht2stdhh',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '2131763592000000000000000000'
+      shares: '2140364532000000000000000000'
     },
     {
       delegatorAddress: 'stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25',
@@ -1298,15 +1428,16 @@ NUMBER : [15]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '2131763592' },
+    { denom: 'uosmo', amount: '2140364532' },
     { denom: 'ustars', amount: '59407000000' }
   ],
-  balanceOsmo: 3539709492,
-  pubkey: 'A6i3dzqGtN5IkqiYUnOe9qQhcQ5EYo1pv8qmtqfazDn4'
+  balanceOsmo: 3435437132,
+  pubkey: 'A6i3dzqGtN5IkqiYUnOe9qQhcQ5EYo1pv8qmtqfazDn4',
+  starsAddr: 'stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25'
 }
 -------------------------------
 -------------------------------
-NUMBER : [16]
+NUMBER : [14]
 {
   delegations: [
     {
@@ -1324,18 +1455,19 @@ NUMBER : [16]
     { denom: 'uosmo', amount: '2000000000' },
     { denom: 'ustars', amount: '9998999999' }
   ],
-  balanceOsmo: 2236976299.9763002,
-  pubkey: 'AtuLYlPbqLDDNECq+DR+7OuS1s05Zzw1EnFq35ckq4F4'
+  balanceOsmo: 2217978199.9782,
+  pubkey: 'AtuLYlPbqLDDNECq+DR+7OuS1s05Zzw1EnFq35ckq4F4',
+  starsAddr: 'stars1j7gme9jqtlczwlr3725xwc09s63ksnqll7re7f'
 }
 -------------------------------
 -------------------------------
-NUMBER : [17]
+NUMBER : [15]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1l0zaezprhjh05v4zjay67ddeqm2hje8a892y4t',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1954677349000000000000000000'
+      shares: '1962563806000000000000000000'
     },
     {
       delegatorAddress: 'stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg',
@@ -1344,11 +1476,44 @@ NUMBER : [17]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1954677349' },
+    { denom: 'uosmo', amount: '1962563806' },
     { denom: 'ustars', amount: '1333000000' }
   ],
-  balanceOsmo: 1986269449,
-  pubkey: 'Avlkr8iQBHEiW+Hsv1Z+0L/yLI3UdmjDbmqXqD/MVzIW'
+  balanceOsmo: 1991623206,
+  pubkey: 'Avlkr8iQBHEiW+Hsv1Z+0L/yLI3UdmjDbmqXqD/MVzIW',
+  starsAddr: 'stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg'
+}
+-------------------------------
+-------------------------------
+NUMBER : [16]
+{
+  delegations: [
+    {
+      delegatorAddress: 'osmo1edqav26hnv50spemlv54hmv6c6j9sqfsl5dn28',
+      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+      shares: '1953400475000000000000000000'
+    }
+  ],
+  balances: [ { denom: 'uosmo', amount: '1953400475' } ],
+  balanceOsmo: 1953400475,
+  pubkey: 'A2vgGFvS6KNBKHIGXrMSZENkJYk6b7MeQ5OwdBzeAWpZ',
+  starsAddr: 'stars1edqav26hnv50spemlv54hmv6c6j9sqfsrnf7hy'
+}
+-------------------------------
+-------------------------------
+NUMBER : [17]
+{
+  delegations: [
+    {
+      delegatorAddress: 'osmo1g0zkf489f9urfndz72n77yhuxw5h926q208mf4',
+      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+      shares: '1909662813000000000000000000'
+    }
+  ],
+  balances: [ { denom: 'uosmo', amount: '1909662813' } ],
+  balanceOsmo: 1909662813,
+  pubkey: 'Anbu7BvfUPTqYfX0VLlcQrVospKgxU9mSPHYMUxBp2BD',
+  starsAddr: 'stars1g0zkf489f9urfndz72n77yhuxw5h926qkgrk5k'
 }
 -------------------------------
 -------------------------------
@@ -1356,14 +1521,15 @@ NUMBER : [18]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1edqav26hnv50spemlv54hmv6c6j9sqfsl5dn28',
+      delegatorAddress: 'osmo15htymnke3pm0s4m4txn4ef3jaj6k7736myju4e',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1945550840000000000000000000'
+      shares: '1769553324000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '1945550840' } ],
-  balanceOsmo: 1945550840,
-  pubkey: 'A2vgGFvS6KNBKHIGXrMSZENkJYk6b7MeQ5OwdBzeAWpZ'
+  balances: [ { denom: 'uosmo', amount: '1769553324' } ],
+  balanceOsmo: 1769553324,
+  pubkey: 'AkSb/XchwHxwXRceegyTx6jgFWWwFcs4TT+ZDdjk+/3W',
+  starsAddr: 'stars15htymnke3pm0s4m4txn4ef3jaj6k77368rk3g6'
 }
 -------------------------------
 -------------------------------
@@ -1371,39 +1537,9 @@ NUMBER : [19]
 {
   delegations: [
     {
-      delegatorAddress: 'osmo1g0zkf489f9urfndz72n77yhuxw5h926q208mf4',
-      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1901988938000000000000000000'
-    }
-  ],
-  balances: [ { denom: 'uosmo', amount: '1901988938' } ],
-  balanceOsmo: 1901988938,
-  pubkey: 'Anbu7BvfUPTqYfX0VLlcQrVospKgxU9mSPHYMUxBp2BD'
-}
--------------------------------
--------------------------------
-NUMBER : [20]
-{
-  delegations: [
-    {
-      delegatorAddress: 'osmo15htymnke3pm0s4m4txn4ef3jaj6k7736myju4e',
-      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1753432881000000000000000000'
-    }
-  ],
-  balances: [ { denom: 'uosmo', amount: '1753432881' } ],
-  balanceOsmo: 1753432881,
-  pubkey: 'AkSb/XchwHxwXRceegyTx6jgFWWwFcs4TT+ZDdjk+/3W'
-}
--------------------------------
--------------------------------
-NUMBER : [21]
-{
-  delegations: [
-    {
       delegatorAddress: 'osmo1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzcwqu2j',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1686358735000000000000000000'
+      shares: '1693162618000000000000000000'
     },
     {
       delegatorAddress: 'stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3',
@@ -1412,15 +1548,16 @@ NUMBER : [21]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1686358735' },
+    { denom: 'uosmo', amount: '1693162618' },
     { denom: 'ustars', amount: '15446000000' }
   ],
-  balanceOsmo: 2052428935,
-  pubkey: 'A16flIhtoocbScJuatuKKKbCxXiyo11ofzae3oDMOwak'
+  balanceOsmo: 2029885418,
+  pubkey: 'A16flIhtoocbScJuatuKKKbCxXiyo11ofzae3oDMOwak',
+  starsAddr: 'stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3'
 }
 -------------------------------
 -------------------------------
-NUMBER : [22]
+NUMBER : [20]
 {
   delegations: [
     {
@@ -1438,18 +1575,19 @@ NUMBER : [22]
     { denom: 'uosmo', amount: '1669180032' },
     { denom: 'ustars', amount: '30000000000' }
   ],
-  balanceOsmo: 2380180032,
-  pubkey: 'AjkQOlzTWSleRT8q3LL3V9VlZFhBVGeQnKqLp32jjFEL'
+  balanceOsmo: 2323180032,
+  pubkey: 'AjkQOlzTWSleRT8q3LL3V9VlZFhBVGeQnKqLp32jjFEL',
+  starsAddr: 'stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng'
 }
 -------------------------------
 -------------------------------
-NUMBER : [23]
+NUMBER : [21]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1kqgv4aj3l5g90p8qepvdwkpneqe32d2txr63yz',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1425531338000000000000000000'
+      shares: '1431282870000000000000000000'
     },
     {
       delegatorAddress: 'stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep',
@@ -1458,36 +1596,38 @@ NUMBER : [23]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1425531338' },
+    { denom: 'uosmo', amount: '1431282870' },
     { denom: 'ustars', amount: '10013500000' }
   ],
-  balanceOsmo: 1662851288,
-  pubkey: 'Awi9uA+RlB3yz7osiwU0bAFerDndVbLMC/KHY29k28yT'
+  balanceOsmo: 1649577170,
+  pubkey: 'Awi9uA+RlB3yz7osiwU0bAFerDndVbLMC/KHY29k28yT',
+  starsAddr: 'stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep'
 }
 -------------------------------
 -------------------------------
-NUMBER : [24]
+NUMBER : [22]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1pmj2mtg03k4klkxkr49c3ukfhreygwj50j7xr8',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1322728926000000000000000000'
+      shares: '1328065686000000000000000000'
     }
   ],
-  balances: [ { denom: 'uosmo', amount: '1322728926' } ],
-  balanceOsmo: 1322728926,
-  pubkey: 'Ar1pGC6ZAi9Kc8pUzp72e+KF1enwJ4qvB2O78v34iWUO'
+  balances: [ { denom: 'uosmo', amount: '1328065686' } ],
+  balanceOsmo: 1328065686,
+  pubkey: 'Ar1pGC6ZAi9Kc8pUzp72e+KF1enwJ4qvB2O78v34iWUO',
+  starsAddr: 'stars1pmj2mtg03k4klkxkr49c3ukfhreygwj5n46t7y'
 }
 -------------------------------
 -------------------------------
-NUMBER : [25]
+NUMBER : [23]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1uq9u0d70tj69cvn82gz0ereg20ym3v6xl08ys4',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1224757263000000000000000000'
+      shares: '1229698740000000000000000000'
     },
     {
       delegatorAddress: 'stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk',
@@ -1496,61 +1636,64 @@ NUMBER : [25]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1224757263' },
+    { denom: 'uosmo', amount: '1229698740' },
     { denom: 'ustars', amount: '12406600000' }
   ],
-  balanceOsmo: 1518793683,
-  pubkey: 'A0nfitHMfdHeEjjlb/ctFRdW49bHA/MwpYntK0z5uItL'
+  balanceOsmo: 1500162620,
+  pubkey: 'A0nfitHMfdHeEjjlb/ctFRdW49bHA/MwpYntK0z5uItL',
+  starsAddr: 'stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk'
 }
 -------------------------------
 -------------------------------
-NUMBER : [26]
+NUMBER : [24]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1qamfln8u5w8d3vlhp5t9mhmylfkgad4junm4fz',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1120218091000000000000000000'
+      shares: '1124084348000000000000000000'
     },
     {
       delegatorAddress: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p',
       validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-      shares: '6059936312000000000000000000'
+      shares: '6073397730000000000000000000'
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1120218091' },
-    { denom: 'ustars', amount: '6059936312' }
+    { denom: 'uosmo', amount: '1124084348' },
+    { denom: 'ustars', amount: '6073397730' }
   ],
-  balanceOsmo: 1263838581.5944,
-  pubkey: 'A3HgpeYyWOZn79aOSnPeYTQuFU3HCs3SbPpDtwPVZxDF'
+  balanceOsmo: 1256484418.514,
+  pubkey: 'A3HgpeYyWOZn79aOSnPeYTQuFU3HCs3SbPpDtwPVZxDF',
+  starsAddr: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p'
 }
 -------------------------------
 -------------------------------
-NUMBER : [27]
+NUMBER : [25]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1wpdrvn7dew5etz9wrk0aqa0pkkul4uq8xvr8yq',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '1017902358000000000000000000'
+      shares: '1022008630000000000000000000'
     },
     {
       delegatorAddress: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er',
       validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
-      shares: '7022864881000000000000000000'
+      shares: '7064152893000000000000000000'
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '1017902358' },
-    { denom: 'ustars', amount: '7022864881' }
+    { denom: 'uosmo', amount: '1022008630' },
+    { denom: 'ustars', amount: '7064152893' }
   ],
-  balanceOsmo: 1184344255.6797,
-  pubkey: 'A9GU0WBDENanI5/LI+tDcYlM+QmVquatadbuiWiuJkE6'
+  balanceOsmo: 1176007163.0674,
+  pubkey: 'A9GU0WBDENanI5/LI+tDcYlM+QmVquatadbuiWiuJkE6',
+  starsAddr: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er'
 }
 -------------------------------
 -------------------------------
-NUMBER : [28]
+NUMBER : [26]
 {
   delegations: [
     {
@@ -1561,11 +1704,12 @@ NUMBER : [28]
   ],
   balances: [ { denom: 'uosmo', amount: '1004719399' } ],
   balanceOsmo: 1004719399,
-  pubkey: 'AkszKvMD9pmNSF3fVJ6caBQ8GPMNC6ivCcclVzwwS4Zd'
+  pubkey: 'AkszKvMD9pmNSF3fVJ6caBQ8GPMNC6ivCcclVzwwS4Zd',
+  starsAddr: 'stars1plqn3j5272katu9leffl8ysc8kgparcr5692c0'
 }
 -------------------------------
 -------------------------------
-NUMBER : [29]
+NUMBER : [27]
 {
   delegations: [
     {
@@ -1583,18 +1727,43 @@ NUMBER : [29]
     { denom: 'uosmo', amount: '1000000000' },
     { denom: 'ustars', amount: '4000000000' }
   ],
-  balanceOsmo: 1094800000,
-  pubkey: 'Atl20nt50ekvIfvlcJ8eXXJRgRO2r2FjyLP3rBKoCDk5'
+  balanceOsmo: 1087200000,
+  pubkey: 'Atl20nt50ekvIfvlcJ8eXXJRgRO2r2FjyLP3rBKoCDk5',
+  starsAddr: 'stars12kct4cfuwh7vevec7c4y9slmee949qrjp5ds2x'
 }
 -------------------------------
 -------------------------------
-NUMBER : [30]
+NUMBER : [28]
+{
+  delegations: [
+    {
+      delegatorAddress: 'osmo1tk062ueryn03wecn84k7wssmx7xmxt26vj2qh0',
+      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+      shares: '868646353000000000000000000'
+    },
+    {
+      delegatorAddress: 'stars1tk062ueryn03wecn84k7wssmx7xmxt26s4wd2v',
+      validatorAddress: 'starsvaloper1kekv8xqg7aj628l8av4d95cm79y8lw3clph7u7',
+      shares: '3136000000000000000000000000'
+    }
+  ],
+  balances: [
+    { denom: 'uosmo', amount: '868646353' },
+    { denom: 'ustars', amount: '3136000000' }
+  ],
+  balanceOsmo: 937011153,
+  pubkey: 'AwMjdok+XNfiudHM5NWTc7mybO607yqa7xtvJspxAntt',
+  starsAddr: 'stars1tk062ueryn03wecn84k7wssmx7xmxt26s4wd2v'
+}
+-------------------------------
+-------------------------------
+NUMBER : [29]
 {
   delegations: [
     {
       delegatorAddress: 'osmo1u96xkp0rth26p3tr69hnzn9vl7kysmzmxh5hja',
       validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
-      shares: '804860658000000000000000000'
+      shares: '808107996000000000000000000'
     },
     {
       delegatorAddress: 'stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607',
@@ -1603,12 +1772,151 @@ NUMBER : [30]
     }
   ],
   balances: [
-    { denom: 'uosmo', amount: '804860658' },
+    { denom: 'uosmo', amount: '808107996' },
     { denom: 'ustars', amount: '1000000000' }
   ],
-  balanceOsmo: 828560658,
-  pubkey: 'A1P/SrDXp7GJN7dEFB0GQWm82q5kQfb4bb7eTO22HNXw'
+  balanceOsmo: 829907996,
+  pubkey: 'A1P/SrDXp7GJN7dEFB0GQWm82q5kQfb4bb7eTO22HNXw',
+  starsAddr: 'stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607'
+}
+-------------------------------
+-------------------------------
+NUMBER : [30]
+{
+  delegations: [
+    {
+      delegatorAddress: 'osmo1zkgd39ejlx543evahr32mywm2jk84vkw0anvwr',
+      validatorAddress: 'osmovaloper1udp8gef365zcqhlxuepewrxuep9thjanuhxcaw',
+      shares: '663774754000000000000000000'
+    }
+  ],
+  balances: [ { denom: 'uosmo', amount: '663774754' } ],
+  balanceOsmo: 663774754,
+  pubkey: 'Aoe6f4ytUYrVyVza+d+iCBLlXbiy5Ryh8v422KUr2rID',
+  starsAddr: 'stars1zkgd39ejlx543evahr32mywm2jk84vkwn6hpnq'
 }
 -------------------------------
 ----------- FINAL SORT BY OSMO BALANCE END -----------
-Done in 18.78s.
+[
+  {
+    recipient: 'stars17vz8hvg96lddwawdfygvu89ua4v7qgd6aklg78',
+    token_id: '1'
+  },
+  {
+    recipient: 'stars1s43l7s99hx627scn2ldd3ey50qpj9frvne4t0a',
+    token_id: '2'
+  },
+  {
+    recipient: 'stars1f4n4a3xyun8ntgk9skh50t2l884vfyejnsay8t',
+    token_id: '3'
+  },
+  {
+    recipient: 'stars1j65p8eyn5u08ets4eqksrj43hz7mjpv9mt5ypn',
+    token_id: '4'
+  },
+  {
+    recipient: 'stars14x7s5jcup6danjrhvxfajj62jfgnlsda66en5e',
+    token_id: '5'
+  },
+  {
+    recipient: 'stars1tntlr6g3f5mzkguxl58v7y9z403x9fzlg36pfa',
+    token_id: '6'
+  },
+  {
+    recipient: 'stars1axrtywdnv9h74hr207kg2e942tvk9c5myy5fve',
+    token_id: '7'
+  },
+  {
+    recipient: 'stars1xe99zszd0zqzxc75kvky0hxvvzgkj3lyp2z2yh',
+    token_id: '8'
+  },
+  {
+    recipient: 'stars10efrdu7x6d6hmy5srvgxk26lxm2875rfev3ng2',
+    token_id: '9'
+  },
+  {
+    recipient: 'stars1ka8twg94gtqhmhw8x9z6xtnhfmejy2rwztq25w',
+    token_id: '10'
+  },
+  {
+    recipient: 'stars15ea5sfdcvyvta662xpsn2ugmxz234vrkj0z0w2',
+    token_id: '11'
+  },
+  {
+    recipient: 'stars18x855kwcr4sxq3sc6gdq55arshylrfskv8efwn',
+    token_id: '12'
+  },
+  {
+    recipient: 'stars1d0zydkzyw5jw0dwusp603uxpu75u4shtkh0q25',
+    token_id: '13'
+  },
+  {
+    recipient: 'stars1j7gme9jqtlczwlr3725xwc09s63ksnqll7re7f',
+    token_id: '14'
+  },
+  {
+    recipient: 'stars1l0zaezprhjh05v4zjay67ddeqm2hje8amzwfgg',
+    token_id: '15'
+  },
+  {
+    recipient: 'stars1edqav26hnv50spemlv54hmv6c6j9sqfsrnf7hy',
+    token_id: '16'
+  },
+  {
+    recipient: 'stars1g0zkf489f9urfndz72n77yhuxw5h926qkgrk5k',
+    token_id: '17'
+  },
+  {
+    recipient: 'stars15htymnke3pm0s4m4txn4ef3jaj6k77368rk3g6',
+    token_id: '18'
+  },
+  {
+    recipient: 'stars1k7vfxrg3krh5yzkfzea5m7lkvhmcuffzyfy3h3',
+    token_id: '19'
+  },
+  {
+    recipient: 'stars15rce70qlpcztvvekjwpv4fx3s5k2ujjeedm5ng',
+    token_id: '20'
+  },
+  {
+    recipient: 'stars1kqgv4aj3l5g90p8qepvdwkpneqe32d2t6y7uep',
+    token_id: '21'
+  },
+  {
+    recipient: 'stars1pmj2mtg03k4klkxkr49c3ukfhreygwj5n46t7y',
+    token_id: '22'
+  },
+  {
+    recipient: 'stars1uq9u0d70tj69cvn82gz0ereg20ym3v6xrgrfdk',
+    token_id: '23'
+  },
+  {
+    recipient: 'stars1qamfln8u5w8d3vlhp5t9mhmylfkgad4jq5lc5p',
+    token_id: '24'
+  },
+  {
+    recipient: 'stars1wpdrvn7dew5etz9wrk0aqa0pkkul4uq86t82er',
+    token_id: '25'
+  },
+  {
+    recipient: 'stars1plqn3j5272katu9leffl8ysc8kgparcr5692c0',
+    token_id: '26'
+  },
+  {
+    recipient: 'stars12kct4cfuwh7vevec7c4y9slmee949qrjp5ds2x',
+    token_id: '27'
+  },
+  {
+    recipient: 'stars1tk062ueryn03wecn84k7wssmx7xmxt26s4wd2v',
+    token_id: '28'
+  },
+  {
+    recipient: 'stars1u96xkp0rth26p3tr69hnzn9vl7kysmzm6ss607',
+    token_id: '29'
+  },
+  {
+    recipient: 'stars1zkgd39ejlx543evahr32mywm2jk84vkwn6hpnq',
+    token_id: '30'
+  }
+]
+Done in 38.53s.

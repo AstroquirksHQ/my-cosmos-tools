@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "validatool": "node dist/validatool.js",
-    "starsSend": "node dist/starsSend.js"
+    "starsSend": "node dist/starsSend.js",
+    "superfluidQuery": "node dist/superfluidQuery.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "@types/invariant": "^2.2.35",
     "csv-parse": "^5.3.6",
     "invariant": "^2.2.4",
+    "osmojs": "^14.0.0-rc.0",
     "winston": "^3.8.2",
     "yargs": "^17.7.1"
   },
